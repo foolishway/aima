@@ -414,11 +414,11 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 a.p_active {
-	color: #FA695A !important;
+	color: #F599C1 !important;
 }
 
 .header_c_menu_list_normal a.c_active {
-	color: #FA695A;
+	color: #F599C1;
 	transition: background 0.2s;
 	-moz-transition: background 0.2s;
 	/* Firefox 4 */
@@ -444,7 +444,7 @@ a.p_active {
 }
 
 .header_c_menu_list_scroll a.c_active {
-	//color: #FA695A;
+	//color: #F599C1;
 	transition: background 0.2s;
 	-moz-transition: background 0.2s;
 	/* Firefox 4 */
@@ -704,6 +704,7 @@ ul.app_c_menu_list {
 	}
 	.app100 li {
 		width: 100%;
+		text-align: left !important;
 	}
 	.mt_20 {
 		margin-top: 20px
