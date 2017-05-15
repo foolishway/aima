@@ -85,7 +85,7 @@ $(function() {
 			$(this).css("cursor", "pointer");
 		},
 		"click": function() {
-			window.location.href = "index.html";
+			window.location.href = "../首页.html";
 		}
 	});
 });

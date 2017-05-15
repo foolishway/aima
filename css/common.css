@@ -327,7 +327,9 @@ input[type="search"]::-webkit-search-decoration {
 .fr {
 	float: right;
 }
-
+.clear{
+	clear:both;
+}
 .font_bold {
 	font-weight: bolder;
 }
