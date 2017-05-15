@@ -716,6 +716,9 @@ ul.app_c_menu_list {
 		right: 0px;
 	}
 	/*app header end*/
+	.banner_carousel{
+		top:50px !important;
+	}
 	/*footer start*/
 	.footer_body ul {
 		width: 50%;
