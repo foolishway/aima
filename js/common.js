@@ -67,17 +67,17 @@ $(function() {
 	$("span.app_menu_btn").on("click", function(e) {
 		if($(".app_menu").is(":hidden")) {
 			$(".app_menu").stop().slideDown(100);
-			$("span.app_menu_btn").html("&#xe63d;")
+			$("span.app_menu_btn").html("&#xe602;")
 		} else {
 			$(".app_menu").stop().slideUp(100);
-			$("span.app_menu_btn").html("&#xe628;")
+			$("span.app_menu_btn").html("&#xe64c;")
 		}
 		e.stopPropagation();
 	});
 	$(document).click(function() {
 		if(!$(".app_menu").is(":hidden")) {
 			$(".app_menu").stop().slideUp(100);
-			$("span.app_menu_btn").html("&#xe628;");
+			$("span.app_menu_btn").html("&#xe64c;");
 		}
 	});
 	$("div.header_log").on({
