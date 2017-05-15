@@ -4,6 +4,7 @@
 	width:100%;
 	background: url("../images/index/mian-01.jpg");
 	position: relative;
+	top:50px;
 }
 .banner_shadow{
 	position: absolute;
@@ -13,7 +14,6 @@
 	right:0px;
 	background: rgba(0,0,0,0.5);
 	z-index:10;
-	margin-top:70px;
 }
 .banner_shadow_text{
 	width:300px;
@@ -27,7 +27,7 @@
 	margin-top:-100px;
 	text-align: center;
 }
-.banner_carousel{position:relative;height:540px;overflow:hidden;background:url(../images/index/loading.gif) 50% no-repeat;top:70px;}
+.banner_carousel{position:relative;height:540px;overflow:hidden;background:url(../images/index/loading.gif) 50% no-repeat;top:50px;}
 .slides{position:relative;z-index:1;}  
 .slides li{height:540px;position:relative}  
 .flex-control-nav{position:absolute;bottom:15px;right:50px;z-index:2;width:120px;text-align:center;}  
