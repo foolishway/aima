@@ -344,21 +344,29 @@ input[type="search"]::-webkit-search-decoration {
 	background: #000000;
 	width: 100%;
 	min-width: 1024px;
-	height: 49px;
+	height: 70px;
 	position: absolute;
 	/*top: 0px;*/
 	/*left: 0px;*/
 	z-index: 999;
 }
-
+.header .head_top_log{
+	background: url(../images/common/logo2.png) no-repeat;
+	background-size: cover;
+	height: 20px;
+	width: 150px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
 .header .header_log {
-	background: url(../images/common/yy_logo.svg) no-repeat;
-	background-size: 50% 50%;
-	background-position: 20px 6px;
+	background: url(../images/common/logo1.png) no-repeat;
+	background-size:50px 50px;
+	background-position: 150px 10px;
 	float: left;
 	width: 200px;
-	height: 49px;
-	position: relative;
+	height: 70px;
+	position: absolute;
+	top:0px;
 }
 
 .header .header_log .header_log_text_fff {
@@ -383,7 +391,9 @@ input[type="search"]::-webkit-search-decoration {
 
 .header .header_menu {
 	/*//width: 644px;*/
-	height: 49px;
+	height: 40px;
+	position: absolute;
+	left:200px;
 	/*float: right;*/
 	/*margin-right: 80px;*/
 }
@@ -408,9 +418,9 @@ input[type="search"]::-webkit-search-decoration {
 .header_c_menu_list>li>a {
 	display: inline-block;
 	width: 200px;
-	height: 49px;
+	height: 40px;
 	color: #fff;
-	line-height: 49px;
+	line-height: 40px;
 	text-align: center;
 	font-size:14px;
 }
