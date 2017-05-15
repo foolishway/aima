@@ -85,7 +85,7 @@ $(function() {
 			$(this).css("cursor", "pointer");
 		},
 		"click": function() {
-			window.location.href = "../首页.html";
+			window.location.href = "../首页（轮播图）.html";
 		}
 	});
 });

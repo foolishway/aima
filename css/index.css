@@ -1,4 +1,32 @@
-/*banner start*/ 
+/*banner start*/
+.banner{
+	height:540px;
+	width:100%;
+	background: url("../images/index/mian-01.jpg");
+	position: relative;
+}
+.banner_shadow{
+	position: absolute;
+	top:0px;
+	bottom: 0px;
+	left:0px;
+	right:0px;
+	background: rgba(0,0,0,0.5);
+	z-index:10;
+	margin-top:70px;
+}
+.banner_shadow_text{
+	width:300px;
+	height:200px;
+	color:#fff;
+	font-size:24px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-left:-150px;
+	margin-top:-100px;
+	text-align: center;
+}
 .banner_carousel{position:relative;height:540px;overflow:hidden;background:url(../images/index/loading.gif) 50% no-repeat;top:70px;}
 .slides{position:relative;z-index:1;}  
 .slides li{height:540px;position:relative}  
