@@ -376,10 +376,10 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .header .header_menu {
-	//width: 644px;
+	/*//width: 644px;*/
 	height: 49px;
-	float: right;
-	margin-right: 80px;
+	/*float: right;*/
+	/*margin-right: 80px;*/
 }
 
 .header_p_menu_list>li {
@@ -402,7 +402,7 @@ input[type="search"]::-webkit-search-decoration {
 .header_p_menu_list>li>a,
 .header_c_menu_list>li>a {
 	display: inline-block;
-	width: 120px;
+	width: 200px;
 	height: 49px;
 	color: #fff;
 	line-height: 49px;
@@ -437,7 +437,7 @@ a.p_active {
 }
 
 .header_c_menu_list_scroll a {
-	width: 118px !important;
+	width: 198px !important;
 }
 
 .header_c_menu_list_scroll a.c_active {
