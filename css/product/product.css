@@ -1,11 +1,17 @@
 .banner_bg1 {
+    background: url("../../images/product/xuebao3.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.banner_bg2 {
     background: url("../../images/product/mai3.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
 .product_list {
     width: 1000px;
     margin: 0 auto;
@@ -92,4 +98,23 @@
     font-size: 16px;
     text-align: center;
     color:#fff;
+}
+
+.banner_carousel {
+    position: relative;
+    height: 650px;
+    overflow: hidden;
+    background: url(../../images/index/loading.gif) 50% no-repeat;
+    top: 70px;
+    margin-bottom: 70px;
+}
+
+.banner_bg1 {
+    background: url(../../images/product/xuebao3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner_bg2 {
+    background: url(../../images/index/main-02.jpg) no-repeat center center;
+    background-size: cover;
 }
