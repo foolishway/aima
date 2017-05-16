@@ -1,7 +1,3 @@
-.banner{
-    background-image: url("../../images/aima_philosophy/fuwu5.jpg");
-    width:100%;
-    height:500px;
-    position: relative;
-    top: 70px;
+.bg{
+    background: url("../../images/aima_philosophy/zs-main-02.jpg") no-repeat center center;
 }

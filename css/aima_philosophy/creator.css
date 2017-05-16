@@ -1,4 +1,16 @@
 
+.banner_shadow_text{
+    width: 400px;
+    height:500px;
+    color:#fff;
+    font-size:24px;
+    position: absolute;
+    top:50px;
+    left:50%;
+    margin-left:-150px;
+    text-align: center;
+    margin-top:0px;
+}
 .banner_shadow_text h2,h3,h4{
     font-weight: normal;
 }

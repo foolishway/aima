@@ -29,26 +29,6 @@
     top:70px;
     margin-bottom: 50px;
 }
-.banner_shadow{
-    position: absolute;
-    top:0px;
-    bottom: 0px;
-    left:0px;
-    right:0px;
-    background: rgba(0,0,0,0.5);
-    z-index:10;
-}
-.banner_shadow_text{
-    width: 400px;
-    height:500px;
-    color:#fff;
-    font-size:24px;
-    position: absolute;
-    top:50px;
-    left:50%;
-    margin-left:-150px;
-    text-align: center;
-}
 
 @media (max-width: 1080px){
     .banner {
