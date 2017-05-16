@@ -1,7 +1,60 @@
-.banner_bg1{
+.banner_bg1 {
     background: url("../../images/product/mai3.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.product_list {
+    width: 1000px;
+    margin: 0 auto 30px;
+    overflow: hidden;
+}
+
+.product_list .product_item {
+    margin-top: 30px;
+    height:500px;
+    position: relative;
+}
+.product_item .product_desc{
+    width:200px;
+    overflow: hidden;
+}
+.product_list .product_item img{
+    width:800px;
+    height:500px;
+}
+.product_desc .product_color{
+    width:35px;
+    height:35px;
+    float:left;
+    margin-right:10px;
+}
+.product_desc .product_title{
+    line-height: 35px;
+}
+.product_item.img_left img{
+    position: absolute;
+    left: 0px;
+}
+.product_item.img_left .product_desc{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.product_item.img_right img{
+    position: absolute;
+    right: 0px;
+}
+.product_item.img_right .product_desc{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.bg_white{
+    background: #F7F7F7;
+}
+.bg_yellow{
+    background: #F4CE2D;
 }
