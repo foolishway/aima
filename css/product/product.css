@@ -1,0 +1,7 @@
+.banner_bg1{
+    background: url("../../images/product/mai3.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
