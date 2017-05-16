@@ -118,3 +118,25 @@
     background: url(../../images/index/main-02.jpg) no-repeat center center;
     background-size: cover;
 }
+@media (max-width: 767px) {
+    .product_list {
+        width: 90%;
+    }
+    .product_item .product_desc{
+        width:20%;
+        overflow: hidden;
+    }
+    .product_list .product_item img{
+        width:80%;
+        height:500px;
+    }
+    .product_ps_item{
+        width:90%;
+        float: none;
+        margin:0 auto;
+    }
+    .product_division{
+        padding: 0px;
+        text-align: center;
+    }
+}
