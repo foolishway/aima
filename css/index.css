@@ -1,9 +1,9 @@
 /*banner start*/
 .banner{
-	height:540px;
+	height:650px;
 	width:100%;
 	background: url("../images/index/main-01.jpg");
-    background-size: contain;
+    background-size: cover;
 	position: relative;
     top: 50px;
     margin-bottom: 50px;
@@ -34,9 +34,9 @@
 .banner_shadow_text .cn{
     font-size:24px;
 }
-.banner_carousel{position:relative;height:540px;overflow:hidden;background:url(../images/index/loading.gif) 50% no-repeat;top:70px;}
+.banner_carousel{position:relative;height:650px;overflow:hidden;background:url(../images/index/loading.gif) 50% no-repeat;top:70px;}
 .slides{position:relative;z-index:1;}  
-.slides li{height:540px;position:relative}  
+.slides li{height:650px;position:relative}
 .flex-control-nav{position:absolute;bottom:15px;right:50px;z-index:2;width:120px;text-align:center;}  
 .flex-control-nav li{display:inline-block;width:14px;height:14px;margin:0 5px;*display:inline;zoom:1;}  
 .flex-control-nav a{display:none;width:14px;height:14px;line-height:40px;overflow:hidden;background:url(../images/index/dot.png) right 0 no-repeat;cursor:pointer;}
@@ -47,23 +47,23 @@
 .flex-direction-nav li a.flex-next{right:40px;background:url(../images/common/next.png) center center no-repeat;}  
 .banner_bg1{
 	background:url(../images/index/main-01.jpg) no-repeat;
-	background-size:100% 100%;
+	background-size:cover;
 }
 .banner_bg2{
 	background:url(../images/index/main-02.jpg) no-repeat;
-	background-size:100% 100%;
+	background-size:cover;
 }
 .banner_bg3{
 	background:url(../images/index/main-03.jpg) no-repeat;
-	background-size:100% 100%;
+	background-size:cover;
 }
 .banner_bg4{
 	background:url(../images/index/main-04.jpg) no-repeat;
-	background-size:100% 100%;
+	background-size:cover;
 }
 .banner_bg5{
 	background:url(../images/index/main-05.jpg) no-repeat;
-	background-size:100% 100%;
+	background-size:cover;
 }
 .banner_main{
 	position:absolute;
