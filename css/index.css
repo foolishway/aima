@@ -13,6 +13,7 @@
     overflow: hidden;
     background: url(../images/index/loading.gif) 50% no-repeat;
     top: 70px;
+    margin-bottom: 70px;
 }
 
 .slides {
@@ -152,25 +153,6 @@
 }
 
 /*banner end*/
-
-.banner_icon {
-    background: #B6B6B6;
-    color: #8C8C8C;
-    height: 50px;
-    line-height: 50px;
-    margin-top: 70px;
-}
-
-.banner_icon ul li {
-    width: 25%;
-    float: left;
-    text-align: center;
-    font-size: 16px;
-}
-
-.banner_icon ul li.active {
-    color: #636363;
-}
 
 /*product list start*/
 .product {

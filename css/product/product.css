@@ -8,7 +8,7 @@
 
 .product_list {
     width: 1000px;
-    margin: 0 auto 30px;
+    margin: 0 auto;
     overflow: hidden;
 }
 
@@ -57,4 +57,39 @@
 }
 .bg_yellow{
     background: #F4CE2D;
+}
+.product_division{
+    background: #B5B5B5;
+    height:50px;
+    line-height: 50px;
+    font-size: 16px;
+    padding-left: 100px;
+    color:#919191;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.product_ps_list{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.product_ps_item{
+    width:33.33%;
+    float: left;
+    text-align: center;
+}
+.product_item .product_ps_item img{
+    width:200px;
+    height:150px;
+}
+.product_ps_title{
+    text-align: center;
+}
+
+.product_xl{
+    background: #7F7F7F;
+    height:70px;
+    line-height: 70px;
+    font-size: 16px;
+    text-align: center;
+    color:#fff;
 }

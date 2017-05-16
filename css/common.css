@@ -509,6 +509,23 @@ a.p_active {
 
 /*banner shadow end*/
 
+.banner_icon {
+    background: #B6B6B6;
+    color: #8C8C8C;
+    height: 50px;
+    line-height: 50px;
+}
+
+.banner_icon ul li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+}
+
+.banner_icon ul li.active {
+    color: #636363;
+}
 /*button*/
 
 a.banner_btn_red {
@@ -735,6 +752,7 @@ ul.app_c_menu_list {
     /*app header end*/
     .banner_carousel {
         top: 50px !important;
+        margin-bottom: 50px !important;
     }
 
     /*footer start*/
