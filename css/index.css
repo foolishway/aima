@@ -254,7 +254,10 @@
 }
 /*feature end*/
 /*pad start*/
-@media (max-width: 1080px) { 
+@media (max-width: 1080px) {
+	.banner_icon{
+		margin-top:50px;
+	}
 	/*app produc_list*/ 
 	.produc_list li{
 		width:50%
