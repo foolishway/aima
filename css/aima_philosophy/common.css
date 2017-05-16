@@ -24,9 +24,10 @@
 .banner{
     height:700px;
     width:100%;
-    background: url("../../images/index/mian-01.jpg");
+    background: url("../../images/aima_philosophy/zs-main-h-01.jpg") no-repeat center center;
     position: relative;
     top:70px;
+    margin-bottom: 50px;
 }
 .banner_shadow{
     position: absolute;
@@ -47,4 +48,10 @@
     left:50%;
     margin-left:-150px;
     text-align: center;
+}
+
+@media (max-width: 1080px){
+    .banner {
+        top: 50px !important;
+    }
 }
