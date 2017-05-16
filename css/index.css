@@ -301,26 +301,26 @@
 		line-height:35px;
 	}
 	/*app banner*/
-	.banner_bg1{
-		background:url(../images/index/pic_app_banner1.jpg) no-repeat;
-		background-size:cover;
-	}
-	.banner_bg2{
-		background:url(../images/index/pic_app_banner2.jpg) no-repeat;
-		background-size:cover;
-	}
-	.banner_bg3{
-		background:url(../images/index/pic_app_banner3.jpg) no-repeat;
-		background-size:cover;		
-	}
-	.banner_bg4{
-		background:url(../images/index/pic_app_banner4.jpg) no-repeat;
-		background-size:cover;		
-	}
-	.banner_bg5{
-		background:url(../images/index/pic_app_banner5.jpg) no-repeat;
-		background-size:cover;		
-	} 
+	/*.banner_bg1{*/
+		/*background:url(../images/index/pic_app_banner1.jpg) no-repeat;*/
+		/*background-size:cover;*/
+	/*}*/
+	/*.banner_bg2{*/
+		/*background:url(../images/index/pic_app_banner2.jpg) no-repeat;*/
+		/*background-size:cover;*/
+	/*}*/
+	/*.banner_bg3{*/
+		/*background:url(../images/index/pic_app_banner3.jpg) no-repeat;*/
+		/*background-size:cover;		*/
+	/*}*/
+	/*.banner_bg4{*/
+		/*background:url(../images/index/pic_app_banner4.jpg) no-repeat;*/
+		/*background-size:cover;		*/
+	/*}*/
+	/*.banner_bg5{*/
+		/*background:url(../images/index/pic_app_banner5.jpg) no-repeat;*/
+		/*background-size:cover;		*/
+	/*} */
 	/*app banner*/
 	/*produc_list start*/
 	.product_title{
