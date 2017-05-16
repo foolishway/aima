@@ -300,6 +300,17 @@
 		height:35px;
 		line-height:35px;
 	}
+	.banner_shadow_text{
+		width:100%;
+		left:0px;
+		margin-left:0px;
+	}
+	.banner_shadow_text .en{
+		font-size:24px;
+	}
+	.banner_shadow_text .cn{
+		font-size:18px;
+	}
 	/*app banner*/
 	/*.banner_bg1{*/
 		/*background:url(../images/index/pic_app_banner1.jpg) no-repeat;*/
