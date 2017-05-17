@@ -5,6 +5,7 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
 .banner_bg2 {
     background: url("../../images/product/cp-02.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -12,92 +13,116 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
+.banner_bg3 {
+    background: url("../../images/product/cp-03.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .product_list {
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
     overflow: hidden;
 }
 
 .product_list .product_item {
     margin-top: 30px;
-    height:500px;
+    height: 500px;
     position: relative;
 }
-.product_item .product_desc{
-    width:200px;
+
+.product_item .product_desc {
+    width: 200px;
     overflow: hidden;
 }
-.product_list .product_item img{
-    width:800px;
-    height:500px;
+
+.product_list .product_item img {
+    width: 800px;
+    height: 500px;
 }
-.product_desc .product_color{
-    width:35px;
-    height:35px;
-    float:left;
-    margin-right:10px;
+
+.product_desc .product_color {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-right: 10px;
 }
-.product_desc .product_title{
+
+.product_desc .product_title {
     line-height: 35px;
 }
-.product_item.img_left img{
+
+.product_item.img_left img {
     position: absolute;
     left: 0px;
 }
-.product_item.img_left .product_desc{
+
+.product_item.img_left .product_desc {
     position: absolute;
     right: 0px;
     bottom: 0px;
 }
-.product_item.img_right img{
+
+.product_item.img_right img {
     position: absolute;
     right: 0px;
 }
-.product_item.img_right .product_desc{
+
+.product_item.img_right .product_desc {
     position: absolute;
     left: 0px;
     bottom: 0px;
 }
-.bg_white{
+
+.bg_white {
     background: #F7F7F7;
 }
-.bg_yellow{
+
+.bg_yellow {
     background: #F4CE2D;
 }
-.product_division{
+
+.product_division {
     background: #B5B5B5;
-    height:50px;
+    height: 50px;
     line-height: 50px;
     font-size: 16px;
     padding-left: 100px;
-    color:#919191;
+    color: #919191;
     margin-top: 100px;
     margin-bottom: 50px;
 }
-.product_ps_list{
+
+.product_ps_list {
     margin-bottom: 30px;
     overflow: hidden;
 }
-.product_ps_item{
-    width:33.33%;
+
+.product_ps_item {
+    width: 33.33%;
     float: left;
     text-align: center;
 }
-.product_item .product_ps_item img{
-    width:200px;
-    height:150px;
+
+.product_item .product_ps_item img {
+    width: 200px;
+    height: 150px;
 }
-.product_ps_title{
+
+.product_ps_title {
     text-align: center;
 }
 
-.product_xl{
+.product_xl {
     background: #7F7F7F;
-    height:70px;
+    height: 70px;
     line-height: 70px;
     font-size: 16px;
     text-align: center;
-    color:#fff;
+    color: #fff;
 }
 
 .banner_carousel {
@@ -108,24 +133,64 @@
     top: 70px;
     margin-bottom: 70px;
 }
+
+.tc {
+    text-align: center;
+}
+
+.product_banner_text {
+    color: #fff;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    margin-top: -100px;
+    font-weight: 100;
+}
+
+.product_banner_text .title {
+    font-size: 32px;
+}
+
+.product_banner_text .desc {
+    font-size: 24px;
+}
+
+.product_params {
+    border: 0px;
+    margin: 0 auto;
+    width: 80%;
+    border-spacing: 0;
+}
+
+.product_params td {
+    height: 30px;
+}
+
+.product_params tr:nth-child(even), .product_params thead tr {
+    background: #DDDDDD;
+}
+
 @media (max-width: 767px) {
     .product_list {
         width: 90%;
     }
-    .product_item .product_desc{
-        width:20%;
+
+    .product_item .product_desc {
+        width: 20%;
         overflow: hidden;
     }
-    .product_list .product_item img{
-        width:80%;
-        height:500px;
+
+    .product_list .product_item img {
+        width: 80%;
     }
-    .product_ps_item{
-        width:90%;
+
+    .product_ps_item {
+        width: 90%;
         float: none;
-        margin:0 auto;
+        margin: 0 auto;
     }
-    .product_division{
+
+    .product_division {
         padding: 0px;
         text-align: center;
     }
