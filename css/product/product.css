@@ -22,6 +22,13 @@
     background-size: cover;
 }
 
+.banner_bg6 {
+    background: url("../../images/product/cp-06.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .product_list {
     width: 1200px;
     margin: 0 auto;
@@ -147,11 +154,11 @@
     font-weight: 100;
 }
 
-.product_banner_text .title {
+.product_banner_text .title,.product_banner_text_bottom .title {
     font-size: 32px;
 }
 
-.product_banner_text .desc {
+.product_banner_text .desc,.product_banner_text_bottom .desc {
     font-size: 24px;
 }
 
@@ -170,7 +177,19 @@
 .product_params tr:nth-child(even), .product_params thead tr {
     background: #DDDDDD;
 }
-
+.product_banner_text_bottom{
+    color: #000;
+    position: absolute;
+    left: 10%;
+    bottom:100px;
+    font-weight: 100;
+}
+.product_small{
+    height:100px !important;
+}
+.product_small img{
+    height:100px !important;
+}
 @media (max-width: 767px) {
     .product_list {
         width: 90%;
