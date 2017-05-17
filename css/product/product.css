@@ -45,7 +45,13 @@
     -o-background-size: cover;
     background-size: cover;
 }
-
+.banner_bg18 {
+    background: url("../../images/product/cp-18.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .product_list {
     width: 1200px;
@@ -191,6 +197,12 @@
     margin-top: -100px;
 }
 
+.text_center{
+    left:50%;
+    top:100px;
+    margin-left:-100px;
+}
+
 .product_banner .title {
     font-size: 32px;
 }
@@ -231,6 +243,18 @@
     height: 100px !important;
 }
 
+.product_params_sm{
+    border-collapse:collapse;
+    border:none;
+    margin: 0 auto;
+    width: 80%;
+    border-spacing: 0;
+}
+.product_params_sm td{
+    border: 1px solid #000000;
+    text-align: center;
+}
+
 @media (max-width: 767px) {
     .product_list {
         width: 90%;
@@ -262,7 +286,7 @@
         text-align: center;
     }
 
-    .text_left, .text_right, .text_left_bottom,.text_right_bottom {
+    .text_left, .text_right, .text_left_bottom,.text_right_bottom,text_center {
         left: 50%;
         top:50%;
         margin-left:-150px;
