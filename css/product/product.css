@@ -164,6 +164,7 @@
 
 .product_params td {
     height: 30px;
+    text-align: center;
 }
 
 .product_params tr:nth-child(even), .product_params thead tr {
