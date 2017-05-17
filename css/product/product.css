@@ -38,6 +38,15 @@
     background-size: cover;
 }
 
+.banner_bg13 {
+    background: url("../../images/product/cp-13.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 .product_list {
     width: 1200px;
     margin: 0 auto;
@@ -165,10 +174,16 @@
     margin-top: -100px;
 }
 
-.text_bottom {
+.text_left_bottom {
     left: 10%;
-    bottom: 100px;
+    bottom: 200px;
 }
+
+.text_right_bottom {
+    right: 10%;
+    bottom: 200px;
+}
+
 
 .text_right {
     right: 25%;
@@ -247,7 +262,7 @@
         text-align: center;
     }
 
-    .text_left, .text_right, .text_bottom {
+    .text_left, .text_right, .text_left_bottom,.text_right_bottom {
         left: 50%;
         top:50%;
         margin-left:-150px;
