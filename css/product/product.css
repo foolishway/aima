@@ -282,7 +282,7 @@
     }
 
     .product_list .product_item img {
-        width: 80%;
+        width: 95%;
     }
 
     .product_ps_item {
@@ -297,8 +297,8 @@
     }
 
     .product_banner {
-        width: 300px;
-        margin: 0 auto;
+        /*width: 300px;*/
+        /*margin: 0 auto;*/
         text-align: center;
     }
 
