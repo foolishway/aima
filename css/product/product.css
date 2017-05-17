@@ -29,6 +29,15 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
+.banner_bg11 {
+    background: url("../../images/product/cp-10.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .product_list {
     width: 1200px;
     margin: 0 auto;
@@ -145,23 +154,42 @@
     text-align: center;
 }
 
-.product_banner_text {
-    color: #fff;
+.product_banner {
     position: absolute;
-    left: 25%;
-    top: 50%;
-    margin-top: -100px;
     font-weight: 100;
 }
 
-.product_banner_text .title,.product_banner_text_bottom .title {
+.text_left {
+    left: 25%;
+    top: 50%;
+    margin-top: -100px;
+}
+
+.text_bottom {
+    left: 10%;
+    bottom: 100px;
+}
+
+.text_right {
+    right: 25%;
+    top: 50%;
+    margin-top: -100px;
+}
+
+
+.product_banner .title {
     font-size: 32px;
 }
 
-.product_banner_text .desc,.product_banner_text_bottom .desc {
+.product_banner .desc {
     font-size: 24px;
 }
-
+.fw{
+    color:#fff;
+}
+.fb{
+    color:#000;
+}
 .product_params {
     border: 0px;
     margin: 0 auto;
@@ -177,19 +205,15 @@
 .product_params tr:nth-child(even), .product_params thead tr {
     background: #DDDDDD;
 }
-.product_banner_text_bottom{
-    color: #000;
-    position: absolute;
-    left: 10%;
-    bottom:100px;
-    font-weight: 100;
+
+.product_small {
+    height: 100px !important;
 }
-.product_small{
-    height:100px !important;
+
+.product_small img {
+    height: 100px !important;
 }
-.product_small img{
-    height:100px !important;
-}
+
 @media (max-width: 767px) {
     .product_list {
         width: 90%;
