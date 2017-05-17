@@ -45,6 +45,7 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
 .banner_bg18 {
     background: url("../../images/product/cp-18.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -75,6 +76,18 @@
     /*height: 500px;*/
 }
 
+.img_left, .img_right {
+    width: 1000px;
+    height: 650px !important;
+    margin: 0 auto;
+    position: relative;
+}
+
+.img_left img, .img_right img {
+    width: 650px !important;
+    height: 640px;
+}
+
 .product_desc .product_color {
     width: 35px;
     height: 35px;
@@ -86,26 +99,26 @@
     line-height: 35px;
 }
 
-.product_item.img_left img {
+.img_left img {
     position: absolute;
     left: 0px;
 }
 
-.product_item.img_left .product_desc {
+.img_left .product_desc {
     position: absolute;
     right: 0px;
-    bottom: 0px;
+    bottom: 100px;
 }
 
-.product_item.img_right img {
+.img_right img {
     position: absolute;
     right: 0px;
 }
 
-.product_item.img_right .product_desc {
+.img_right .product_desc {
     position: absolute;
     left: 0px;
-    bottom: 0px;
+    bottom: 100px;
 }
 
 .bg_white {
@@ -190,17 +203,16 @@
     bottom: 200px;
 }
 
-
 .text_right {
     right: 25%;
     top: 50%;
     margin-top: -100px;
 }
 
-.text_center{
-    left:50%;
-    top:100px;
-    margin-left:-100px;
+.text_center {
+    left: 50%;
+    top: 100px;
+    margin-left: -100px;
 }
 
 .product_banner .title {
@@ -243,14 +255,15 @@
     height: 100px !important;
 }
 
-.product_params_sm{
-    border-collapse:collapse;
-    border:none;
+.product_params_sm {
+    border-collapse: collapse;
+    border: none;
     margin: 0 auto;
     width: 80%;
     border-spacing: 0;
 }
-.product_params_sm td{
+
+.product_params_sm td {
     border: 1px solid #000000;
     text-align: center;
 }
@@ -282,16 +295,17 @@
 
     .product_banner {
         width: 300px;
-        margin:0 auto;
+        margin: 0 auto;
         text-align: center;
     }
 
-    .text_left, .text_right, .text_left_bottom,.text_right_bottom,text_center {
+    .text_left, .text_right, .text_left_bottom, .text_right_bottom, text_center {
         left: 50%;
-        top:50%;
-        margin-left:-150px;
-        margin-top:-150px;
+        top: 50%;
+        margin-left: -150px;
+        margin-top: -150px;
     }
+
     .product_banner .title {
         font-size: 24px;
     }
