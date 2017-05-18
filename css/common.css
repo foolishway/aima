@@ -756,9 +756,10 @@ ul.app_c_menu_list {
         margin-bottom: 50px !important;
     }
 
-    .banner_footer{
-        font-size:16px;
+    .banner_footer {
+        font-size: 16px;
     }
+
     /*footer start*/
     .footer_body ul {
         width: 50%;
@@ -805,6 +806,22 @@ ul.app_c_menu_list {
 
     .header_white li a {
         color: #333333;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner_shadow_text {
+        width: 100%;
+        left: 0px;
+        margin-left: 0px;
+    }
+
+    .banner_shadow_text .en {
+        font-size: 24px;
+    }
+
+    .banner_shadow_text .cn {
+        font-size: 18px;
     }
 }
 
