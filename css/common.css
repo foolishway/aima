@@ -795,6 +795,7 @@ ul.app_c_menu_list {
     width: 1200px;
     margin: 0 auto 30px;
     overflow: hidden;
+    position: relative;
 }
 
 .card {
@@ -806,7 +807,7 @@ ul.app_c_menu_list {
 
 .card img {
     width: 100%;
-    height: 360px;
+    /*height: 360px;*/
 }
 
 .card_content .title {

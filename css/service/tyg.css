@@ -12,3 +12,17 @@
 .ml-260{
     margin-left: -230px;
 }
+.per_text{
+    width:400px;
+    position: absolute;
+    bottom: 0;
+    left:0px;
+}
+
+@media (max-width: 1080px) {
+    .per_text{
+        width:100%;
+        position: static;
+        margin-bottom: 20px;
+    }
+}
