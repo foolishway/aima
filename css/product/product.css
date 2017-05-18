@@ -250,11 +250,11 @@
 }
 
 .product_small {
-    height: 100px !important;
+    /*height: 100px !important;*/
 }
 
 .product_small img {
-    height: 100px !important;
+    /*height: 100px !important;*/
 }
 
 .product_params_sm {
