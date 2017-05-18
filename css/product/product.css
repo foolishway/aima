@@ -77,15 +77,15 @@
 }
 
 .img_left, .img_right {
-    width: 1000px;
-    height: 650px !important;
+    width: 1200px;
+    height: 650px;
     margin: 0 auto;
     position: relative;
 }
 
 .img_left img, .img_right img {
     width: 650px !important;
-    height: 640px;
+    /*height: 640px;*/
 }
 
 .product_desc .product_color {
@@ -97,7 +97,7 @@
 
 .product_desc .product_title {
     line-height: 35px;
-    font-size:24px;
+    font-size: 24px;
 }
 
 .img_left img {
@@ -134,7 +134,7 @@
     background: #B5B5B5;
     height: 50px;
     line-height: 50px;
-    font-size: 16px;
+    font-size: 24px;
     padding-left: 100px;
     color: #919191;
     margin-top: 100px;
@@ -152,13 +152,13 @@
     text-align: center;
 }
 
-.product_item .product_ps_item img {
+.product_ps_item img {
     width: 200px;
-    height: 150px;
 }
 
 .product_ps_title {
     text-align: center;
+    font-size: 24px;
 }
 
 .product_xl {
@@ -242,7 +242,7 @@
 .product_params td {
     height: 30px;
     text-align: center;
-    font-size:16px;
+    font-size: 16px;
 }
 
 .product_params tr:nth-child(even), .product_params thead tr {
@@ -268,21 +268,37 @@
 .product_params_sm td {
     border: 1px solid #000000;
     text-align: center;
-    font-size:16px;
+    font-size: 16px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1080px) {
     .product_list {
         width: 90%;
     }
 
     .product_item .product_desc {
-        width: 20%;
+        width: 130px;
+        margin: 0 auto;
+        position: static;
         overflow: hidden;
+    }
+
+    .product_desc .product_title {
+        font-size: 16px;
     }
 
     .product_list .product_item img {
         width: 95%;
+    }
+
+    .img_left, .img_right {
+        width: 100%;
+        height: auto;
+    }
+
+    .img_left img, .img_right img {
+        width: 100% !important;
+        position: static;
     }
 
     .product_ps_item {
@@ -291,9 +307,14 @@
         margin: 0 auto;
     }
 
+    .product_ps_title {
+        font-size: 16px;
+    }
+
     .product_division {
         padding: 0px;
         text-align: center;
+        font-size: 16px;
     }
 
     .product_banner {

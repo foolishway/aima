@@ -503,7 +503,7 @@ a.p_active {
     bottom: 0px;
     line-height: 70px;
     color: #fff;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
 }
 
@@ -756,6 +756,9 @@ ul.app_c_menu_list {
         margin-bottom: 50px !important;
     }
 
+    .banner_footer{
+        font-size:16px;
+    }
     /*footer start*/
     .footer_body ul {
         width: 50%;
