@@ -1,0 +1,14 @@
+.banner_bg {
+    background: url("../../images/service/fw-01.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.pink{
+    color:#F599C1;
+    font-size:16px;
+}
+.ml-260{
+    margin-left: -230px;
+}

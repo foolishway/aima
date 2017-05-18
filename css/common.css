@@ -704,6 +704,122 @@ ul.app_c_menu_list {
 
 /*footer end*/
 
+/*幻灯片开始*/
+
+.banner_carousel {
+    position: relative;
+    height: 650px;
+    overflow: hidden;
+    background: url(../images/index/loading.gif) 50% no-repeat;
+    top: 70px;
+    margin-bottom: 70px;
+}
+
+.slides {
+    position: relative;
+    z-index: 1;
+}
+
+.slides li {
+    height: 650px;
+    position: relative
+}
+
+.flex-control-nav {
+    position: absolute;
+    bottom: 15px;
+    right: 50px;
+    z-index: 2;
+    width: 120px;
+    text-align: center;
+}
+
+.flex-control-nav li {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 5px;
+    *display: inline;
+    zoom: 1;
+}
+
+.flex-control-nav a {
+    display: none;
+    width: 14px;
+    height: 14px;
+    line-height: 40px;
+    overflow: hidden;
+    background: url(../images/index/dot.png) right 0 no-repeat;
+    cursor: pointer;
+}
+
+.flex-control-nav .flex-active {
+    background-position: 0 0;
+}
+
+.flex-direction-nav {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    top: 45%;
+}
+
+.flex-direction-nav li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+}
+
+.flex-direction-nav li a.flex-prev {
+    left: 40px;
+    background: url(../images/common/prev.png) center center no-repeat;
+}
+
+.flex-direction-nav li a.flex-next {
+    right: 40px;
+    background: url(../images/common/next.png) center center no-repeat;
+}
+
+/*幻灯片结束*/
+
+/*card start*/
+.card_list {
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.card_item {
+    width: 1200px;
+    margin: 0 auto 30px;
+    overflow: hidden;
+}
+
+.card {
+    width: 650px;
+    /*height: 460px;*/
+    /*margin-top:50px;*/
+    /*margin-bottom: 50px;*/
+}
+
+.card img {
+    width: 100%;
+    height: 360px;
+}
+
+.card_content .title {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.card_content .desc {
+    font-size: 16px;
+}
+
+/**card end/
 /*app start*/
 
 @media (max-width: 1080px) {
@@ -786,6 +902,20 @@ ul.app_c_menu_list {
     }
 
     /*footer end*/
+    /*card start*/
+    .card_item {
+        width: 90%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .fr, .fl {
+        float: none;
+    }
+
+    /*card end*/
 }
 
 @media (min-width: 1079px) {
@@ -842,84 +972,4 @@ ul.app_c_menu_list {
     }
 }
 
-/*幻灯片开始*/
-
-.banner_carousel {
-    position: relative;
-    height: 650px;
-    overflow: hidden;
-    background: url(../images/index/loading.gif) 50% no-repeat;
-    top: 70px;
-    margin-bottom: 70px;
-}
-
-.slides {
-    position: relative;
-    z-index: 1;
-}
-
-.slides li {
-    height: 650px;
-    position: relative
-}
-
-.flex-control-nav {
-    position: absolute;
-    bottom: 15px;
-    right: 50px;
-    z-index: 2;
-    width: 120px;
-    text-align: center;
-}
-
-.flex-control-nav li {
-    display: inline-block;
-    width: 14px;
-    height: 14px;
-    margin: 0 5px;
-    *display: inline;
-    zoom: 1;
-}
-
-.flex-control-nav a {
-    display: none;
-    width: 14px;
-    height: 14px;
-    line-height: 40px;
-    overflow: hidden;
-    background: url(../images/index/dot.png) right 0 no-repeat;
-    cursor: pointer;
-}
-
-.flex-control-nav .flex-active {
-    background-position: 0 0;
-}
-
-.flex-direction-nav {
-    position: absolute;
-    z-index: 3;
-    width: 100%;
-    top: 45%;
-}
-
-.flex-direction-nav li a {
-    display: block;
-    width: 50px;
-    height: 50px;
-    overflow: hidden;
-    cursor: pointer;
-    position: absolute;
-}
-
-.flex-direction-nav li a.flex-prev {
-    left: 40px;
-    background: url(../images/common/prev.png) center center no-repeat;
-}
-
-.flex-direction-nav li a.flex-next {
-    right: 40px;
-    background: url(../images/common/next.png) center center no-repeat;
-}
-
-/*幻灯片结束*/
 /*app end*/
