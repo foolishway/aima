@@ -19,6 +19,22 @@
     left:0px;
 }
 
+.card_item_l{
+    float:left;
+    width:50%;
+}
+.card_item_r{
+    float:right;
+    width:50%;
+}
+.mb50{
+    margin-bottom: 50px;
+}
+
+.card_item_l img,.card_item_r img{
+    width:90%;
+}
+
 @media (max-width: 1080px) {
     .per_text{
         width:100%;
