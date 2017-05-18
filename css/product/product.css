@@ -337,4 +337,10 @@
     .product_banner .desc {
         font-size: 18px;
     }
+    .product_params{
+        width:100%;
+    }
+    .product_params_sm{
+        width:100%;
+    }
 }
