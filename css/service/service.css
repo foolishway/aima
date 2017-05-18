@@ -43,6 +43,14 @@
 ::-webkit-input-placeholder {
     color: #ffffff;
 }
+.product_q_info{
+    background: rgba(255,255,255,0.85);
+    color:#fff;
+    padding:10px;
+}
+.product_q_info td{
+    height:60px;
+}
 @media (max-width: 1080px){
     .banner_shadow_text{
         text-align: center;
