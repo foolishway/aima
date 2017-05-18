@@ -32,7 +32,6 @@
     margin-top: -200px;
     text-align: left;
     font-weight: 100;
-    text-align: center;
 }
 .banner_shadow_text input{
     width:200px;
@@ -43,4 +42,9 @@
 }
 ::-webkit-input-placeholder {
     color: #ffffff;
+}
+@media (max-width: 1080px){
+    .banner_shadow_text{
+        text-align: center;
+    }
 }
