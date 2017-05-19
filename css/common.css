@@ -342,7 +342,7 @@ input[type="search"]::-webkit-search-decoration {
     width: 100%;
     min-width: 1024px;
     height: 70px;
-    position: absolute;
+    position: fixed;
     /*top: 0px;*/
     /*left: 0px;*/
     z-index: 999;
@@ -408,11 +408,11 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 a.p_active {
-    color: #F599C1 !important;
+    color: #F19EC2 !important;
 }
 
 .header_c_menu_list_normal a.c_active {
-    color: #F599C1;
+    color: #F19EC2;
     transition: background 0.2s;
     -moz-transition: background 0.2s;
     /* Firefox 4 */
@@ -423,7 +423,7 @@ a.p_active {
 }
 
 .header_c_menu_list_normal a.c_active:hover {
-    background: #F599C1;
+    background: #F19EC2;
     color: #fff !important;
 }
 
@@ -439,7 +439,7 @@ a.p_active {
 }
 
 .header_c_menu_list_scroll a.c_active {
-/ / color: #F599C1;
+/ / color: #F19EC2;
     transition: background 0.2s;
     -moz-transition: background 0.2s;
     /* Firefox 4 */
@@ -481,21 +481,21 @@ a.p_active {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -200px;
-    margin-top: -100px;
+    margin-left: -350px;
+    margin-top: -150px;
     text-align: center;
 }
 
 .banner_shadow_text .en {
-    font-size: 40px;
+    font-size: 59px;
 }
 
 .banner_shadow_text .cn {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 100;
 }
 .pink{
-    color:#F599C1;
+    color:#F19EC2;
     font-size:16px;
 }
 .banner_footer {
@@ -513,8 +513,8 @@ a.p_active {
 /*banner shadow end*/
 
 .banner_icon {
-    background: #B6B6B6;
-    color: #8C8C8C;
+    background: #B5B6B6;
+    color: #898989;
     height: 50px;
     line-height: 50px;
 }
@@ -527,7 +527,7 @@ a.p_active {
 }
 
 .banner_icon ul li.active {
-    color: #636363;
+    color: #595757;
 }
 
 /*button*/

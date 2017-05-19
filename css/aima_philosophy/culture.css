@@ -1,3 +1,6 @@
 .banner_bg{
     background: url("../../images/aima_philosophy/main-h-01.jpg") no-repeat center center;
 }
+.banner_shadow_text{
+    margin-left: -235px;
+}

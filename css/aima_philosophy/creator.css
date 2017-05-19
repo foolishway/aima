@@ -1,6 +1,9 @@
 .banner_bg{
     background: url("../../images/aima_philosophy/zs-main-h-01.jpg") no-repeat center center;
 }
+.banner_shadow{
+    background: rgba(0,0,0,0.5);
+}
 .banner_shadow_text{
     width: 400px;
     height:500px;
@@ -8,7 +11,7 @@
     position: absolute;
     top:50px;
     left:50%;
-    margin-left:-150px;
+    margin-left:-200px;
     text-align: center;
     margin-top:0px;
     font-weight: 100;
@@ -22,7 +25,7 @@
 .banner_shadow_text p{
     margin-bottom: 10px;
     font-size:16px;
-    color: #C7C5C3;
+    color: #fff;
 }
 .qianming{
     background: url("../../images/aima_philosophy/qm@2x.png") no-repeat center center;
