@@ -71,5 +71,6 @@
 @media (max-width: 1080px){
     .banner_shadow_text{
         text-align: center;
+        margin-left:0px;
     }
 }
