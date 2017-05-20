@@ -1,0 +1,143 @@
+.banner_bg {
+    background: url("../images/gpjh/gj-01.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.vedio {
+    background: #000000;
+    position: relative;
+}
+
+.vedio_bg {
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.vedio .vedio_start {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    cursor: pointer;
+}
+
+.hy_line {
+    background: #000000;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #CCCCCC;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+.hy_list {
+    background: #3E3A39;
+}
+
+.hy_list .hy_item {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.hy_list .hy_item .hy_item_left {
+    float: left;
+}
+
+.hy_list .hy_item .hy_item_right {
+    float: right;
+}
+
+.hy_list .hy_item img {
+    width: 100%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w40 {
+    width: 40%;
+}
+.w50{
+    width:50%;
+}
+.h200{
+    height:200px;
+}
+.h400{
+    height: 400px;
+}
+.bg161010{
+    background: rgba(0,0,0,0.5);
+    position: relative;
+    cursor: pointer;
+}
+.zd{
+    background: url("../images/gpjh/gj-03@2x.jpg") no-repeat center;
+    background-size:100% 100%;
+    position: relative;
+    cursor: pointer;
+}
+.fw{
+    background: url("../images/gpjh/gj-01@2x.jpg") no-repeat center;
+    background-size:100% 100%;
+    position: relative;
+    cursor: pointer;
+}
+.xl{
+    background: url("../images/gpjh/gj-02@2x.jpg") no-repeat center;
+    background-size:100% 100%;
+    position: relative;
+    cursor: pointer;
+}
+.pp{
+    background: url("../images/gpjh/gj-04@2x.jpg") no-repeat center;
+    background-size:100% 100%;
+    position: relative;
+    cursor: pointer;
+}
+.sj{
+     background: url("../images/gpjh/gj-05@2x.jpg") no-repeat center;
+     background-size:100% 100%;
+     position: relative;
+    cursor: pointer;
+ }
+.pz{
+    background: url("../images/gpjh/gj-07@2x.jpg") no-repeat center;
+    background-size:100% 100%;
+    position: relative;
+    cursor: pointer;
+}
+.gg{
+    background: url("../images/gpjh/gj-06@2x.jpg") no-repeat center;
+    background-size:100% 100%;
+    position: relative;
+    cursor: pointer;
+}
+.hy_shadow{
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    background: rgba(0,0,0,0.5);
+}
+.hy_text{
+    position: absolute;
+    top:10px;
+    left:10px;
+    color:#fff;
+}
+.hy_text .title{
+    font-size:18px;
+}
