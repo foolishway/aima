@@ -45,7 +45,13 @@
     -o-background-size: cover;
     background-size: cover;
 }
-
+.banner_bg7 {
+    background: url("../../images/service/fw-02.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .service_tel {
     font-size: 16px;
     color: #DE9CB7;
@@ -133,7 +139,36 @@
 .supplier_map img {
     width: 100%;
 }
-
+.tc{
+    text-align: center !important;
+}
+.after_sales_list .title{
+    text-align: center;
+    font-size:26px;
+}
+.after_salves_item{
+    background: #F7F8F8;
+    margin:0 auto;
+    width:1200px;
+    margin-top: 20px;
+}
+.after_salves_item:hover{
+    background: #EFEFEF;
+}
+.after_salves_item table{
+    width:100%;
+}
+.after_salves_item table td{
+    width:200px;
+}
+.after_salves_item table td{
+    text-align: left;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.after_salves_item table td img{
+    width:50px;
+}
 @media (max-width: 1080px) {
     .banner_shadow_text {
         text-align: center;
@@ -166,5 +201,8 @@
 
     .supplier_map img {
         width: 100%;
+    }
+    .after_salves_item{
+        width:90%;
     }
 }
