@@ -51,7 +51,9 @@
     width: 90%;
     margin-left: 5%;
 }
-
+.zhaopin_item i.iconfont{
+    color: #F19EC2;
+}
 @media (max-width: 1080px) {
     .zhaopin_list {
         width: 90%;
