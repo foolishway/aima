@@ -5,3 +5,96 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
+.banner_bg {
+    background: url("../images/qxq/zh-02.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner_shadow_text h2, h3, h4 {
+    font-weight: normal;
+}
+
+.banner_shadow_text h2 {
+    font-size: 32px;
+}
+
+.banner_shadow_text p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/*横向时间轴*/
+.time-horizontal {
+    list-style-type: none;
+    border-top: 1px solid #ccc;
+    max-width: 1200px;
+    padding: 0px;
+    margin: 0px;
+    margin-top:20px;
+}
+
+.time-horizontal li {
+    float: left;
+    position: relative;
+    text-align: center;
+    /*width: 171px;*/
+    padding-top: 10px;
+}
+
+.time-horizontal li b:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background: #ccc;
+}
+.time-horizontal li .text{
+    display:block;
+    position:absolute;
+    left:0;
+}
+.time-horizontal li .time{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -30px;
+}
+.sl{
+    /*width:172px;*/
+}
+.sl b.sl_dot_o:before{
+    left:33.33%;
+}
+.sl b.sl_dot_t:before{
+    left:66.66%;
+}
+.sl b.sl_dot_th:before{
+    left:100%;
+}
+.time-horizontal li.active{
+    color: #F19EC2;
+}
+.time-horizontal li.active b:before {
+    background: #F19EC2;
+    border: 2px solid #F19EC2;
+}
+.time_line{
+    width:1200px;
+    padding-top:30px;
+    margin:0 auto;
+}
+@media (max-width: 1080px) {
+    .time_line{
+        width:95%;
+    }
+}
