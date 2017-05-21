@@ -144,9 +144,10 @@
     margin-bottom: 30px;
     overflow: hidden;
 }
-.product_division.dhover{
+
+.product_division.dhover {
     background: #F19EC2;
-    color:#fff;
+    color: #fff;
 }
 
 .product_ps_item {
@@ -274,6 +275,10 @@
     font-size: 16px;
 }
 
+.ps {
+    width: 50%;
+}
+
 @media (max-width: 1080px) {
     .product_list {
         width: 90%;
@@ -340,10 +345,16 @@
     .product_banner .desc {
         font-size: 18px;
     }
-    .product_params{
-        width:100%;
+
+    .product_params {
+        width: 100%;
     }
-    .product_params_sm{
-        width:100%;
+
+    .product_params_sm {
+        width: 100%;
+    }
+
+    .ps {
+        width: auto;
     }
 }
