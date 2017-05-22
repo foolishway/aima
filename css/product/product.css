@@ -141,6 +141,8 @@
 }
 
 .product_ps_list {
+    width: 90%;
+    margin: 0 auto;
     margin-bottom: 30px;
     overflow: hidden;
 }
@@ -154,6 +156,12 @@
     width: 33.33%;
     float: left;
     text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.product_ps_item:hover {
+    background: #C9C9CA;
 }
 
 .product_ps_item img {
