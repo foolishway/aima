@@ -304,7 +304,9 @@ input[type="search"]::-webkit-search-decoration {
 .pb20 {
     padding-bottom: 20px;
 }
-
+.pl16{
+    padding-left:16px;
+}
 .mb10 {
     margin-bottom: 10px !important;
 }
@@ -360,7 +362,7 @@ input[type="search"]::-webkit-search-decoration {
 .header .header_log {
     background: url(../images/common/logo1.png) no-repeat;
     background-size: 50px 50px;
-    background-position: 75px 3px;
+    background-position: 0px 3px;
     width: 200px;
     height: 61px;
 }
@@ -390,67 +392,23 @@ input[type="search"]::-webkit-search-decoration {
     /* W3C syntax */
 }
 
-.header_p_menu_list > li > a,
-.header_c_menu_list > li > a {
+.header_p_menu_list > li > a{
     display: inline-block;
     width: 200px;
     height: 61px;
     color: #fff;
     line-height: 61px;
-    text-align: center;
+    text-align: left;
     font-size: 14px;
 }
 
-.header_c_menu_list > li > a {
-    color: #000 !important;
+.header_sub_menu_list .zg a{
+    margin-left: 16px;
 }
 
 a.p_active {
     color: #F19EC2 !important;
 }
-
-.header_c_menu_list_normal a.c_active {
-    color: #F19EC2;
-    transition: background 0.2s;
-    -moz-transition: background 0.2s;
-    /* Firefox 4 */
-    -webkit-transition: background 0.2s;
-    /* Safari 和 Chrome */
-    -o-transition: background 0.2s;
-    /* Opera */
-}
-
-.header_c_menu_list_normal a.c_active:hover {
-    background: #F19EC2;
-    color: #fff !important;
-}
-
-.header_c_menu_list_scroll {
-    overflow: hidden;
-    height: auto;
-    background: rgba(255, 255, 255, 0.9);
-    border: 1px solid #CCC;
-}
-
-.header_c_menu_list_scroll a {
-    width: 198px !important;
-}
-
-.header_c_menu_list_scroll a.c_active {
-/ / color: #F19EC2;
-    transition: background 0.2s;
-    -moz-transition: background 0.2s;
-    /* Firefox 4 */
-    -webkit-transition: background 0.2s;
-    /* Safari 和 Chrome */
-    -o-transition: background 0.2s;
-    /* Opera */
-}
-
-.header_c_menu_list_scroll a.c_active:hover {
-    background: rgba(0, 0, 0, 0.10);
-}
-
 .header_sub_menu_list {
     position: absolute;
     top: 94px;
@@ -488,11 +446,11 @@ a.p_active {
     height: 52px;
     line-height: 52px;
     color: #000;
-    text-align: center;
+    text-align: left;
 }
 
-.header_sub_menu_list ul a:hover {
-    color: #F19EC2;
+.header_menu a:hover {
+    color: #F19EC2 !important;
 }
 
 /*header menu end*/
