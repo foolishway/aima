@@ -7,30 +7,37 @@ function getQueryString(name) {
 
 $.fn.extend({
     pcMenuInit: function () {
-        var $this = $(this),
-            menuList = $this.find("ul");
-        if (menuList) {
-            menuList.each(function (i, v) {
-                $(v).find("li").each(function (index, value) {
-                    var $v = $(value);
-                    $v.hover(function () {
-                        $(this).children("a").addClass("p_active");
-                        if ($v.data("flag") == "parent") {
-                            $(this).find("ul").stop().slideDown(100);
-                        } else {
-                            $(this).children("a").addClass("c_active");
-                        }
-                    }, function () {
-                        $(this).children("a").removeClass("p_active");
-                        if ($v.data("flag") == "parent") {
-                            $(this).find("ul").stop().slideUp(100);
-                        } else {
-                            $(this).children("a").removeClass("c_active");
-                        }
-                    });
-                });
-            });
-        }
+        var $this = $(this);
+        $this.hover(function () {
+            $("div.header_sub_menu_list").stop().slideDown(100);
+        },function () {
+            $("div.header_sub_menu_list").stop().slideUp(100);
+        });
+
+        // var $this = $(this),
+        //     menuList = $this.find("ul");
+        // if (menuList) {
+        //     menuList.each(function (i, v) {
+        //         $(v).find("li").each(function (index, value) {
+        //             var $v = $(value);
+        //             $v.hover(function () {
+        //                 $(this).children("a").addClass("p_active");
+        //                 if ($v.data("flag") == "parent") {
+        //                     $(this).find("ul").stop().slideDown(100);
+        //                 } else {
+        //                     $(this).children("a").addClass("c_active");
+        //                 }
+        //             }, function () {
+        //                 $(this).children("a").removeClass("p_active");
+        //                 if ($v.data("flag") == "parent") {
+        //                     $(this).find("ul").stop().slideUp(100);
+        //                 } else {
+        //                     $(this).children("a").removeClass("c_active");
+        //                 }
+        //             });
+        //         });
+        //     });
+        // }
     },
     mobileMenuInit: function () {
         var $this = $(this),
@@ -62,7 +69,7 @@ $.fn.extend({
 });
 
 $(function () {
-    $(".header_menu").pcMenuInit();
+    $(".header").pcMenuInit();
     $(".app_menu").mobileMenuInit();
     $("span.app_menu_btn").on("click", function (e) {
         if ($(".app_menu").is(":hidden")) {

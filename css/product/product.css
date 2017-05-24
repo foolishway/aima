@@ -54,6 +54,28 @@
     background-size: cover;
 }
 
+.banner_bgm11 {
+    background: url("../../images/product/cp-07.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner_bg12 {
+    background: url("../../images/product/cp-08.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.banner_bg13 {
+    background: url("../../images/product/cp-09.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .product_list {
     width: 1200px;
     margin: 0 auto;
@@ -156,7 +178,7 @@
     width: 33.33%;
     float: left;
     text-align: center;
-    padding-top:20px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -287,6 +309,38 @@
     width: 50%;
 }
 
+.mai_detail {
+    left: 10%;
+}
+
+.jiasu {
+    width: 400px;
+    font-size: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+
+.jsxn {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 24px;
+    color: #fff;
+}
+.bx {
+    width: 800px;
+    height:360px;
+    font-size: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: -180px;
+}
+
 @media (max-width: 1080px) {
     .product_list {
         width: 90%;
@@ -341,9 +395,10 @@
 
     .text_left, .text_right, .text_left_bottom, .text_right_bottom, text_center {
         /*left: 50%;*/
-        /*top: 50%;*/
+        top: 50%;
         /*margin-left: -150px;*/
         margin-top: -150px;
+        bottom: auto;
     }
 
     .product_banner .title {
@@ -364,5 +419,24 @@
 
     .ps {
         width: auto;
+    }
+
+    .mai_detail {
+        left: auto;
+    }
+
+    .jiasu {
+        width: 100%;
+        font-size: 60px;
+        text-align: center;
+        left: auto;
+        margin-left: 0;
+    }
+
+    .jsxn {
+        width: 100%;
+        font-size: 16px;
+        right: auto;
+        text-align: center;
     }
 }
