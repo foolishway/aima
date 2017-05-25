@@ -69,7 +69,7 @@ $.fn.extend({
 });
 
 $(function () {
-    $(".header").pcMenuInit();
+    $(".header_menu").pcMenuInit();
     $(".app_menu").mobileMenuInit();
     $("span.app_menu_btn").on("click", function (e) {
         if ($(".app_menu").is(":hidden")) {
