@@ -447,4 +447,9 @@
         height:70px;
         line-height: 70px;
     }
+    .bx{
+        width:100%;
+        left: 0px;
+        margin-left:0px;
+    }
 }
