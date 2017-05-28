@@ -69,6 +69,7 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
 .banner_bg13 {
     background: url("../../images/product/cp-09.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -76,6 +77,7 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
 .product_list {
     width: 1200px;
     margin: 0 auto;
@@ -196,12 +198,12 @@
 }
 
 .product_xl {
-    background: #7F7F7F;
-    height: 70px;
-    line-height: 70px;
-    font-size: 16px;
+    background: rgba(0, 0, 0, 0.5);
+    height: 160px;
+    line-height: 160px;
+    font-size: 34px;
     text-align: center;
-    color: #fff;
+    color: #898989;
 }
 
 .banner_carousel {
@@ -239,7 +241,7 @@
 }
 
 .text_right {
-    right: 25%;
+    right: 15%;
     top: 50%;
     margin-top: -100px;
 }
@@ -247,15 +249,15 @@
 .text_center {
     left: 50%;
     top: 100px;
-    margin-left: -100px;
+    margin-left: -180px;
 }
 
 .product_banner .title {
-    font-size: 32px;
+    font-size: 50px;
 }
 
 .product_banner .desc {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .fw {
@@ -330,9 +332,10 @@
     font-size: 24px;
     color: #fff;
 }
+
 .bx {
     width: 800px;
-    height:360px;
+    height: 360px;
     font-size: 120px;
     position: absolute;
     top: 50%;
@@ -438,5 +441,10 @@
         font-size: 16px;
         right: auto;
         text-align: center;
+    }
+    .product_xl{
+        font-size:16px;
+        height:70px;
+        line-height: 70px;
     }
 }

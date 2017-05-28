@@ -63,17 +63,23 @@
     font-weight: 100;
     margin-left: -200px;
 }
-
+.banner_shadow_text .en{
+    font-size:40px;
+}
+.banner_shadow_text .cn{
+    font-size:26px;
+}
 .banner_shadow_text p {
     padding: 5px;
 }
 
 .banner_shadow_text input {
-    width: 200px;
-    height: 30px;
+    width: 300px;
+    height: 100px;
     padding: 10px;
     border: none;
     background: rgba(255, 255, 255, 0.5);
+    font-size:26px;
 }
 
 ::-webkit-input-placeholder {
@@ -96,6 +102,12 @@
 
 .cn.pl30, .pink.pl30 {
     padding-left: 30px;
+}
+.pink a.cns{
+    font-size:26px;
+}
+.pink a.ens{
+    font-size:18px;
 }
 
 .banner_text {
@@ -160,11 +172,13 @@
 }
 .after_salves_item table td{
     width:200px;
-}
-.after_salves_item table td{
     text-align: left;
     padding-top:5px;
     padding-bottom: 5px;
+    font-size:16px;
+}
+.after_salves_item table td.tc{
+    font-size:18px;
 }
 .after_salves_item table td img{
     width:50px;

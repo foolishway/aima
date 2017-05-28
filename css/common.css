@@ -362,7 +362,7 @@ input[type="search"]::-webkit-search-decoration {
 .header .header_log {
     background: url(../images/common/logo1.png) no-repeat;
     background-size: 50px 50px;
-    background-position: 0px 3px;
+    background-position: 75px 3px;
     width: 200px;
     height: 61px;
 }
@@ -398,10 +398,13 @@ input[type="search"]::-webkit-search-decoration {
     height: 61px;
     color: #fff;
     line-height: 61px;
-    text-align: left;
     font-size: 14px;
 }
-
+.header_p_menu_list > li > a:before{
+    content:'';
+    display: inline-block;
+    width:75px;
+}
 .header_sub_menu_list .zg a{
     margin-left: 16px;
 }
@@ -448,6 +451,11 @@ a.p_active {
     color: #000;
     text-align: left;
 }
+.header_sub_menu_list ul a:before{
+    content: '';
+    display: inline-block;
+    width: 75px;
+}
 
 .header_menu a:hover {
     color: #F19EC2 !important;
@@ -457,11 +465,11 @@ a.p_active {
 
 /*banner shadow start*/
 .banner {
-    height: 700px;
+    height: 900px;
     width: 100%;
     position: relative;
-    top: 70px;
-    margin-bottom: 70px;
+    top: 94px;
+    margin-bottom: 94px;
 }
 
 .banner_shadow {
@@ -502,13 +510,13 @@ a.p_active {
 
 .banner_footer {
     width: 100%;
-    height: 70px;
+    height: 160px;
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     bottom: 0px;
-    line-height: 70px;
-    color: #fff;
-    font-size: 24px;
+    line-height: 160px;
+    color:#898989;
+    font-size: 34px;
     text-align: center;
 }
 
@@ -517,15 +525,15 @@ a.p_active {
 .banner_icon {
     background: #B5B6B6;
     color: #898989;
-    height: 50px;
-    line-height: 50px;
+    height: 88px;
+    line-height: 88px;
 }
 
 .banner_icon ul li {
     width: 25%;
     float: left;
     text-align: center;
-    font-size: 16px;
+    font-size: 30px;
 }
 
 .banner_icon ul li.active {
@@ -562,6 +570,7 @@ a.p_active {
 
 .dialog .content {
     padding: 30px;
+    line-height: 26px;
 }
 
 .dialog .content p {
@@ -575,8 +584,8 @@ a.p_active {
 .dialog .next-step a {
     display: block;
     width: 120px;
-    height: 30px;
-    line-height: 30px;
+    height: 44px;
+    line-height: 44px;
     color: #fff;
     background: #F19EC2;
     margin: 0 auto;
@@ -657,13 +666,17 @@ ul.app_c_menu_list {
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     position: relative;
-    height: auto;
+    height: 308px;
 }
 
 .footer_logo {
+    position: absolute;
+    width: 100%;
+}
+.footer_logo div{
     background-image: url(../images/common/icon-aa@2x.png);
     background-size: cover;
-    position: absolute;
+    position: relative;
     left: 50%;
     top: -15px;
     z-index: 11;
@@ -672,7 +685,7 @@ ul.app_c_menu_list {
 }
 
 .footer_body {
-    width: 80%;
+    width: 1200px;
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 50px;
@@ -699,6 +712,15 @@ ul.app_c_menu_list {
     width: 100%;
     height: 100%;
     color: rgb(250, 250, 250);
+    text-align: left;
+}
+.footer_body ul li:not(:first-child) a{
+	font-size:13px;
+}
+.footer_body ul li a:before{
+    content:'';
+    display:inline-block;
+    width:75px;
 }
 
 .footer_body ul li a:hover {
@@ -750,13 +772,15 @@ ul.app_c_menu_list {
     background: rgb(0, 0, 0);
     border: 1px solid white;
     color: rgb(255, 255, 255);
-    width: 120px
+    width: 120px;
+    position: absolute;
+    left: 60px;
 }
 
 .footer_li_input .iconfont {
     position: absolute;
-    left: 105px;
-    top: 2px;
+    left: 165px;
+    top: -3px;
 }
 
 /*footer end*/
@@ -768,8 +792,8 @@ ul.app_c_menu_list {
     height: 650px;
     overflow: hidden;
     background: url(../images/index/loading.gif) 50% no-repeat;
-    top: 70px;
-    margin-bottom: 70px;
+    top: 94px;
+    margin-bottom: 94px;
 }
 
 .slides {
@@ -911,7 +935,7 @@ ul.app_c_menu_list {
 
     .banner {
         top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     .app_menu_btn {
@@ -932,12 +956,20 @@ ul.app_c_menu_list {
         top: 50px !important;
         margin-bottom: 50px !important;
     }
-
+    .banner_icon ul li{
+        font-size:16px;
+    }
     .banner_footer {
         font-size: 16px;
     }
 
     /*footer start*/
+    .footer{
+        height:auto;
+    }
+    .footer_body{
+        width:100%;
+    }
     .footer_body ul {
         width: 50%;
         height: 180px;
@@ -947,7 +979,12 @@ ul.app_c_menu_list {
     .footer_body ul li {
         text-align: center;
     }
-
+    .footer_body ul li a:before{
+        width:0px;
+    }
+    .footer_body ul li a{
+        text-align: center;
+    }
     .app100 {
         width: 100% !important;
         border: 0 !important;

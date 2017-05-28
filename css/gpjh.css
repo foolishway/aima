@@ -12,7 +12,7 @@
 }
 
 .vedio_bg {
-    width: 500px;
+    width: 1050px;
     margin: 0 auto;
     display: block;
     padding-top: 50px;
@@ -46,7 +46,7 @@
 }
 
 .hy_list .hy_item {
-    width: 800px;
+    width: 1050px;
     margin: 0 auto;
 }
 
@@ -72,11 +72,11 @@
 .w50{
     width:50%;
 }
-.h200{
-    height:200px;
+.h283{
+    height:283px;
 }
-.h400{
-    height: 400px;
+.h500{
+    height: 500px;
 }
 .bg161010{
     background: rgba(0,0,0,0.5);
