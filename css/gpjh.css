@@ -152,3 +152,12 @@
 .img_view img{
     width:400px;
 }
+@media (max-width: 1080px) {
+    .vedio_bg,.img_view,.hy_list .hy_item,.img_view img{
+        width:100%;
+    }
+    .img_view{
+        left:0;
+        margin-left: 0;
+    }
+}
