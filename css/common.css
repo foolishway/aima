@@ -304,9 +304,11 @@ input[type="search"]::-webkit-search-decoration {
 .pb20 {
     padding-bottom: 20px;
 }
-.pl16{
-    padding-left:16px;
+
+.pl16 {
+    padding-left: 16px;
 }
+
 .mb10 {
     margin-bottom: 10px !important;
 }
@@ -343,7 +345,7 @@ input[type="search"]::-webkit-search-decoration {
     background: #000000;
     width: 100%;
     min-width: 1024px;
-    height:94px;
+    height: 94px;
     position: fixed;
     /*top: 0px;*/
     /*left: 0px;*/
@@ -392,7 +394,7 @@ input[type="search"]::-webkit-search-decoration {
     /* W3C syntax */
 }
 
-.header_p_menu_list > li > a{
+.header_p_menu_list > li > a {
     display: inline-block;
     width: 200px;
     height: 61px;
@@ -400,18 +402,21 @@ input[type="search"]::-webkit-search-decoration {
     line-height: 61px;
     font-size: 14px;
 }
-.header_p_menu_list > li > a:before{
-    content:'';
+
+.header_p_menu_list > li > a:before {
+    content: '';
     display: inline-block;
-    width:75px;
+    width: 75px;
 }
-.header_sub_menu_list .zg a{
+
+.header_sub_menu_list .zg a {
     margin-left: 16px;
 }
 
 a.p_active {
     color: #F19EC2 !important;
 }
+
 .header_sub_menu_list {
     position: absolute;
     top: 94px;
@@ -451,7 +456,8 @@ a.p_active {
     color: #000;
     text-align: left;
 }
-.header_sub_menu_list ul a:before{
+
+.header_sub_menu_list ul a:before {
     content: '';
     display: inline-block;
     width: 75px;
@@ -515,7 +521,7 @@ a.p_active {
     position: absolute;
     bottom: 0px;
     line-height: 160px;
-    color:#898989;
+    color: rgb(255, 255, 255);
     font-size: 34px;
     text-align: center;
 }
@@ -527,6 +533,11 @@ a.p_active {
     color: #898989;
     height: 88px;
     line-height: 88px;
+}
+
+.banner_icon ul {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .banner_icon ul li {
@@ -673,7 +684,8 @@ ul.app_c_menu_list {
     position: absolute;
     width: 100%;
 }
-.footer_logo div{
+
+.footer_logo div {
     background-image: url(../images/common/icon-aa@2x.png);
     background-size: cover;
     position: relative;
@@ -714,13 +726,15 @@ ul.app_c_menu_list {
     color: rgb(250, 250, 250);
     text-align: left;
 }
-.footer_body ul li:not(:first-child) a{
-	font-size:13px;
+
+.footer_body ul li:not(:first-child) a {
+    font-size: 13px;
 }
-.footer_body ul li a:before{
-    content:'';
-    display:inline-block;
-    width:75px;
+
+.footer_body ul li a:before {
+    content: '';
+    display: inline-block;
+    width: 75px;
 }
 
 .footer_body ul li a:hover {
@@ -771,16 +785,19 @@ ul.app_c_menu_list {
 .footer_input {
     background: rgb(0, 0, 0);
     border: 1px solid white;
-    color: rgb(255, 255, 255);
+    color: #9E9F9F;
     width: 120px;
+    height: 20px;
     position: absolute;
     left: 60px;
+    padding-left: 10px;
+    font-size: 12px;
 }
 
 .footer_li_input .iconfont {
     position: absolute;
     left: 165px;
-    top: -3px;
+    top: -1px;
 }
 
 /*footer end*/
@@ -789,7 +806,7 @@ ul.app_c_menu_list {
 
 .banner_carousel {
     position: relative;
-    height: 650px;
+    height: 900px;
     overflow: hidden;
     background: url(../images/index/loading.gif) 50% no-repeat;
     top: 94px;
@@ -802,7 +819,7 @@ ul.app_c_menu_list {
 }
 
 .slides li {
-    height: 650px;
+    height: 900px;
     position: relative
 }
 
@@ -856,12 +873,12 @@ ul.app_c_menu_list {
 
 .flex-direction-nav li a.flex-prev {
     left: 40px;
-    background: url(../images/common/prev.png) center center no-repeat;
+    background: url(../images/common/arrow-l-d.png) center center no-repeat;
 }
 
 .flex-direction-nav li a.flex-next {
     right: 40px;
-    background: url(../images/common/next.png) center center no-repeat;
+    background: url(../images/common/arrow-r-h.png) center center no-repeat;
 }
 
 /*幻灯片结束*/
@@ -956,20 +973,28 @@ ul.app_c_menu_list {
         top: 50px !important;
         margin-bottom: 50px !important;
     }
-    .banner_icon ul li{
-        font-size:16px;
+
+    .banner_icon ul {
+        width: 100%;
     }
+
+    .banner_icon ul li {
+        font-size: 16px;
+    }
+
     .banner_footer {
         font-size: 16px;
     }
 
     /*footer start*/
-    .footer{
-        height:auto;
+    .footer {
+        height: auto;
     }
-    .footer_body{
-        width:100%;
+
+    .footer_body {
+        width: 100%;
     }
+
     .footer_body ul {
         width: 50%;
         height: 180px;
@@ -979,12 +1004,15 @@ ul.app_c_menu_list {
     .footer_body ul li {
         text-align: center;
     }
-    .footer_body ul li a:before{
-        width:0px;
+
+    .footer_body ul li a:before {
+        width: 0px;
     }
-    .footer_body ul li a{
+
+    .footer_body ul li a {
         text-align: center;
     }
+
     .app100 {
         width: 100% !important;
         border: 0 !important;
