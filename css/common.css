@@ -563,7 +563,7 @@ a.p_active {
 
 .pink {
     color: #F19EC2;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .banner_footer {
@@ -918,8 +918,8 @@ ul.app_c_menu_list {
 
 .flex-direction-nav li a {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     overflow: hidden;
     cursor: pointer;
     position: absolute;
