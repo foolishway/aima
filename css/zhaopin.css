@@ -12,7 +12,7 @@
 }
 
 .zhaopin_item {
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 16px;
 }
 
@@ -32,10 +32,24 @@
     /*display: inline-block;*/
 }
 
-.zhaopin_item select {
-    margin-left: 10px;
-}
+.zhaopin_item .select_area {
+    display: inline-block;
+    width:160px;
+    height:40px;
+    line-height: 40px;
+    text-align: left;
+    padding-left: 20px;
+    border: 1px solid #CCCCCC;
+    position: relative;
+    left:10px;
+    font-size:18px;
 
+}
+.zhaopin_item .select_area i{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+}
 .supplier_map {
     position: absolute;
     right: 0px;
@@ -50,7 +64,9 @@
 
 .zhaopin_list {
     width: 1200px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
+    margin: 0 auto;
+    padding-left: 100px;
 }
 
 .zhaopin_item i.iconfont {

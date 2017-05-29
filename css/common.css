@@ -300,7 +300,12 @@ input[type="search"]::-webkit-search-decoration {
 .pt20 {
     padding-top: 20px;
 }
-
+.pt50{
+    padding-top: 50px;
+}
+.pb100{
+    padding-bottom:100px;
+}
 .pb20 {
     padding-bottom: 20px;
 }
@@ -546,8 +551,7 @@ a.p_active {
     text-align: center;
     font-size: 30px;
 }
-
-.banner_icon ul li.active {
+.banner_icon ul li:hover{
     color: #595757;
 }
 
