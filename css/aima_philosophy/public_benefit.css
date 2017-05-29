@@ -1,3 +1,11 @@
 .banner_bg{
     background: url("../../images/aima_philosophy/zs-main-02.jpg") no-repeat center center;
 }
+.banner_shadow_text .cn {
+    font-size: 59px;
+    font-weight: 200;
+}
+
+.banner_shadow_text .en {
+    font-size: 50px;
+}

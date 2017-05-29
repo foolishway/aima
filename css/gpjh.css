@@ -21,23 +21,23 @@
 
 .vedio .vedio_start {
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
     top: 50%;
     left: 50%;
-    margin-top: -25px;
-    margin-left: -25px;
+    margin-top: -45px;
+    margin-left: -45px;
     cursor: pointer;
 }
 
 .hy_line {
     background: #000000;
-    height: 50px;
-    line-height: 50px;
+    height: 100px;
+    line-height: 100px;
     border-top: 1px solid #CCCCCC;
     text-align: center;
     color: #fff;
-    font-size: 16px;
+    font-size: 40px;
 }
 
 .hy_list {
@@ -46,7 +46,7 @@
 }
 
 .hy_list .hy_item {
-    width: 1050px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -69,95 +69,131 @@
 .w40 {
     width: 40%;
 }
-.w50{
-    width:50%;
+
+.w50 {
+    width: 50%;
 }
-.h283{
-    height:283px;
+
+.h283 {
+    height: 283px;
 }
-.h500{
+
+.h500 {
     height: 500px;
 }
-.bg161010{
-    background: rgba(0,0,0,0.5);
+
+.bg161010 {
+    background: rgba(0, 0, 0, 0.5);
     position: relative;
     cursor: pointer;
 }
-.zd{
+
+.zd {
     background: url("../images/gpjh/gj-03@2x.jpg") no-repeat center;
-    background-size:100% 100%;
+    background-size: 100% 100%;
     position: relative;
     cursor: pointer;
 }
-.fw{
+
+.fw {
     background: url("../images/gpjh/gj-01@2x.jpg") no-repeat center;
-    background-size:100% 100%;
+    background-size: 100% 100%;
     position: relative;
     cursor: pointer;
 }
-.xl{
+
+.xl {
     background: url("../images/gpjh/gj-02@2x.jpg") no-repeat center;
-    background-size:100% 100%;
+    background-size: 100% 100%;
     position: relative;
     cursor: pointer;
 }
-.pp{
+
+.pp {
     background: url("../images/gpjh/gj-04@2x.jpg") no-repeat center;
-    background-size:100% 100%;
+    background-size: 100% 100%;
     position: relative;
     cursor: pointer;
 }
-.sj{
-     background: url("../images/gpjh/gj-05@2x.jpg") no-repeat center;
-     background-size:100% 100%;
-     position: relative;
+
+.sj {
+    background: url("../images/gpjh/gj-05@2x.jpg") no-repeat center;
+    background-size: 100% 100%;
+    position: relative;
     cursor: pointer;
- }
-.pz{
+}
+
+.pz {
     background: url("../images/gpjh/gj-07@2x.jpg") no-repeat center;
-    background-size:100% 100%;
+    background-size: 100% 100%;
     position: relative;
     cursor: pointer;
 }
-.gg{
+
+.gg {
     background: url("../images/gpjh/gj-06@2x.jpg") no-repeat center;
-    background-size:100% 100%;
+    background-size: 100% 100%;
     position: relative;
     cursor: pointer;
 }
-.hy_shadow{
+
+.hy_shadow {
     position: absolute;
-    top:0px;
-    left:0px;
-    right:0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
     bottom: 0px;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
-.hy_text{
+
+.hy_text {
     position: absolute;
-    top:10px;
-    left:10px;
-    color:#fff;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    font-size: 18px;
 }
-.hy_text .title{
-    font-size:18px;
+
+.hy_text .title {
+    font-size: 25px;
 }
-.img_view{
-    width:400px;
+
+.img_view {
+    width: 550px;
     position: absolute;
-    left:50%;
-    top:100px;
-    margin-left:-200px;
+    left: 50%;
+    top: 100px;
+    margin-left: -225px;
+    color: #000000;
 }
-.img_view img{
-    width:400px;
+
+.img_view img {
+    width: 550px;
 }
+
+.img_view .text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.img_view .text .title {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.img_view .text .sub {
+    font-size: 22px;
+    line-height: 28px;
+}
+
 @media (max-width: 1080px) {
-    .vedio_bg,.img_view,.hy_list .hy_item,.img_view img{
-        width:100%;
+    .vedio_bg, .img_view, .hy_list .hy_item, .img_view img {
+        width: 100%;
     }
-    .img_view{
-        left:0;
+
+    .img_view {
+        left: 0;
         margin-left: 0;
     }
 }
