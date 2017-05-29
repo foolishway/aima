@@ -1,9 +1,6 @@
 .banner_bg{
-    background: url("../../images/aima_philosophy/zs-main-h-01.jpg") no-repeat center center;
+    background: url("../../images/aima_philosophy/zs-main-01.jpg") no-repeat center center;
     background-size:cover;
-}
-.banner_shadow{
-    background: rgba(0,0,0,0.5);
 }
 .banner_shadow_text{
     width: 600px;
@@ -31,6 +28,7 @@
     margin-bottom: 36px;
     font-size:18px;
     color: #fff;
+    line-height: 28px;
 }
 .qianming{
     background: url("../../images/aima_philosophy/qm@2x.png") no-repeat center center;
@@ -40,4 +38,8 @@
     position: absolute;
     bottom:50px;
     left:600px;
+}
+.ct{
+    height:70px;
+    margin-bottom: 36px;
 }

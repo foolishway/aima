@@ -484,7 +484,7 @@ a.p_active {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(34,24,20,0.50);
     z-index: 10;
 }
 
