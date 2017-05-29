@@ -766,6 +766,7 @@ ul.app_c_menu_list {
     bottom: 0;
     padding-top: 40px;
     padding-bottom: 10px;
+    font-size:12px;
 }
 
 .copyright .owner, .record {
