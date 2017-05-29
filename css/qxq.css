@@ -6,7 +6,7 @@
     background-size: cover;
 }
 
-.banner_bg {
+.banner_bg2 {
     background: url("../images/qxq/zh-02.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -35,7 +35,8 @@
     max-width: 1200px;
     padding: 0px;
     margin: 0px;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .time-horizontal li {
@@ -103,10 +104,10 @@
 }
 
 .content_img {
-    width: 90%;
     margin: 0 auto;
 }
-
+.content_img2 {
+}
 .content_img .content_img_top img {
     width: 100%;
 }
@@ -156,3 +157,7 @@
         float: left;
     }
 }
+.f18{ font-size: 18px !important;}
+.dialog {width: 1000px !important;margin-left: -500px !important;}
+.text_c{ margin: 0 auto; font-size: 18px; padding-top: 20px; padding-bottom: 50px;}
+.dialog .content {padding: 50px !important;}.w550{width: 550px;}
