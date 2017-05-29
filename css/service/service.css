@@ -270,6 +270,7 @@
     .after_salves_item {
         width: 90%;
     }
+    .china_map { display: none;}
 }
 
 .f35 {
@@ -334,12 +335,11 @@
     z-index: 10;
     height: 900px;
 }
-
 .china_map {
     width: 689px;
     position: absolute;
-    bottom: 15%;
-    right: 13%;
+    top: -864px;
+    right: 130px;
     z-index: 11;
 }
 
