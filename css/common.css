@@ -290,9 +290,11 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .mt20 {
-    margin-top: 20px;
+     margin-top: 20px;
+ }
+.mt180 {
+    margin-top: 180px !important;
 }
-
 .pr20 {
     padding-right: 20px;
 }
@@ -511,7 +513,6 @@ a.p_active {
 
 .banner_shadow_text .cn {
     font-size: 40px;
-    font-weight: 100;
 }
 
 .pink {
