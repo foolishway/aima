@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <meta name="generator"
+          content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39"/>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>服务-防伪查询</title>
@@ -8,7 +11,19 @@
     <link rel="stylesheet" type="text/css" href="css/common.css"/>
     <link rel="stylesheet" type="text/css" href="css/service/service.css"/>
     <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/service.js"></script>
+    <style>
+    	.dialog {
+		    width: 840px !important;
+		     background: rgba(255, 255, 255,0.80) !important;
+		    margin-left: -420px !important;
+		    padding: 30px;
+		   box-sizing: border-box;
+		}
+    </style>
 </head>
 
 <body>
@@ -209,21 +224,25 @@
     </div>
     <!--banner开始-->
     <div class="banner banner_bg4">
-        <div class="banner_shadow">
-            <div class="banner_shadow_text">
-                <p class="cn f40">防伪查询</p>
-                <p class="en f26">COUNTERFEITING QUERY</p>
-                <p class="mtd40"><input type="text" placeholder="防伪+12位整车码"/></p>
-                <p class="pink">
-	                	<a>
-	                		<span class="f26">查询</span><br>
-	                		<span class="f18">QUERY</span>
-	                	</a>
-                </p>
-            </div>
-        </div>
+        <div class="banner_shadow"></div>
     </div>
     <!--banner结束-->
+    <!--弹出层-->
+    <div class="dialog" >
+     <p class="">①首先找到整车标签纸。</p>
+     <p>如下图</p>
+     <p><img src="images/service/bm.jpg"></p>
+     <p>标签纸位于整车包装箱/整车挡风板或前泥板位置。</p>
+     <p>②找到标签纸上的整车码，输入  防伪+12位整车码 </p>
+     <p>例：防伪AGPE0E3H2308</p>
+     <p>③将回复的防伪信息与合格证上的整车信息进行比对。</p>
+     <p>信息完全一致则都购买的爱玛电动车为正品。</p>
+     <p class="yans">如果输入整车码有误或其他原因，系统会回复如下：</p>
+     <p>整车码信息不正确</p>
+     <p>请重新输入</p>
+     <p>如有疑问请拨打4008828890咨询</p>
+    </div>
+    <!--弹出层-->
     <div class="footer_logo">
         <div></div>
     </div>

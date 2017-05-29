@@ -39,11 +39,12 @@
 }
 
 .banner_bg6 {
-    background: url("../../images/service/fw-06.jpg") no-repeat center center;
+    background: url("../../images/service/map.jpg") no-repeat center center;
+    background-size:1500px auto !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    height:1350px;
 }
 .banner_bg7 {
     background: url("../../images/service/fw-02.jpg") no-repeat center center;
@@ -80,6 +81,7 @@
     border: none;
     background: rgba(255, 255, 255, 0.5);
     font-size:26px;
+    box-sizing: border-box;
 }
 
 ::-webkit-input-placeholder {
@@ -87,13 +89,18 @@
 }
 
 .product_q_info {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255,1);
     color: #fff;
-    padding: 10px;
+    padding: 50px 20px 30px 20px;
+    width: 590px;
+    box-sizing: border-box;
+    margin: 20px 0px;
 }
 
 .product_q_info td {
-    height: 60px;
+    height: 100px;
+    font-size: 22px;
+    vertical-align:text-top;
 }
 
 .cn .iconfont {
@@ -101,18 +108,18 @@
 }
 
 .cn.pl30, .pink.pl30 {
-    padding-left: 30px;
+    padding-left: 45px;
 }
 .pink a.cns{
-    font-size:26px;
+    font-size:27px;
 }
 .pink a.ens{
     font-size:18px;
 }
 
 .banner_text {
-    width: 800px;
-    margin-left: -400px;
+    width: 1000px;
+    margin-left: -500px;
     text-align: center;
 }
 
@@ -125,7 +132,7 @@
 }
 
 .supplier_item {
-    margin-top: 50px;
+    margin-top: 45px;
     font-size: 16px;
     line-height: 37px;
     /*margin: 0 75px;*/
@@ -134,7 +141,7 @@
 
 .supplier_item .title {
     font-size: 18px;
-    margin-bottom: 20px;
+  
 }
 
 .supplier_item select {
@@ -170,9 +177,9 @@
 .supplier_map {
     position: absolute;
     right:0px;
-    top:0px;
-    width: 450px;
-    height: 380px;
+    top:180px;
+    width: 600px;
+  
 }
 
 .supplier_map img {
@@ -198,17 +205,15 @@
     width:100%;
 }
 .after_salves_item table td{
-    width:200px;
     text-align: left;
-    padding-top:5px;
-    padding-bottom: 5px;
-    font-size:16px;
+    height: 40px;
+    font-size:16px; padding: 20px;
 }
 .after_salves_item table td.tc{
     font-size:18px;
 }
 .after_salves_item table td img{
-    width:50px;
+    width:80px;
 }
 @media (max-width: 1080px) {
     .banner_shadow_text {
@@ -247,3 +252,21 @@
         width:90%;
     }
 }
+.f35{font-size: 35px !important;}.f40{font-size: 40px !important;}.f50{font-size: 50px !important;}.f26{ font-size: 26px !important;}.f18{ font-size: 18px !important;} .lh40{ line-height: 40px;} .tl{ text-align: center;}
+.mtd40{ margin: 40px 0px;}.mt30{ margin-top: 30px;}.f24{ font-size: 24px !important;}.f14{ font-size: 14px !important;}.f20{ font-size: 20px !important;}
+.pd20{padding-bottom: 20px;}
+.banner_shadow2 {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.80);
+    z-index: 10;
+    height: 900px;
+}
+.china_map{ width: 689px; position: absolute;bottom: 0px;right: 0px;}
+.banner_shadow_text { top: 60% !important;}
+
+.dialog p{font-size: 24px; padding-bottom: 20px;}
+.yans{ color: #F09EC1;}

@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <meta name="generator"
+          content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39"/>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>服务-防伪查询</title>
+    <title>服务-顾问</title>
     <link href="css/iconfont/iconfont.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="css/common.css"/>
     <link rel="stylesheet" type="text/css" href="css/service/service.css"/>
     <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/service.js"></script>
+     <style>
+    	.dialog {
+		    width: 1000px !important;
+		     background: rgba(255, 255, 255) !important;
+		    margin-left: -500px !important;
+		    padding: 30px;
+		   box-sizing: border-box;
+		}
+		.dialog .content{width: 700px;margin: 0 auto;}
+    </style>
 </head>
 
 <body>
@@ -208,22 +224,30 @@
         <!--移动端导航结束-->
     </div>
     <!--banner开始-->
-    <div class="banner banner_bg4">
-        <div class="banner_shadow">
-            <div class="banner_shadow_text">
-                <p class="cn f40">防伪查询</p>
-                <p class="en f26">COUNTERFEITING QUERY</p>
-                <p class="mtd40"><input type="text" placeholder="防伪+12位整车码"/></p>
-                <p class="pink">
-	                	<a>
-	                		<span class="f26">查询</span><br>
-	                		<span class="f18">QUERY</span>
-	                	</a>
-                </p>
-            </div>
-        </div>
+    <div class="banner banner_bg3">
+        <div class="banner_shadow"></div>
     </div>
     <!--banner结束-->
+    <!--弹出层-->
+    <div class="dialog">
+        <div class="close"><i class="iconfont icon-guanbi"></i></div>
+        <div class="title f24">
+            车主必看<br>
+            电动车使用的注意事项
+        </div>
+        <div class="content">
+         <ul>
+            <li class="f14 mb20">电动车非常普及，在方便人们的同时，也频繁引发各种交通事故，引起社会诸多不满。电动车的各种事故，除了驾驶人员的不当驾驶外，也跟车辆保养不足造成行车安全隐患有关，例如刹车失灵。此外，保养不好，也会加快整车和零部件的报废速度。下面为大家介绍一些养护电动车基本知识，电动车在行车过程中的维护成本主要是花在蓄电池上。</li>
+            <li class="f14 mb20">1、电动车充电时间不可过长，过充会导致蓄电池长时间发热，加快蓄电池的报废速度。理论上，在完全放电后，蓄电池按照0.1标称率充电(蓄电池标准充电），10小时左右即可充满，考虑充电器效率和蓄电池折旧因素，一般充电时间在10小时到12小时之间即可，极限不要超过16小时。很多人有认识误区，认为充电器是智能充电，怎么充都无所谓，因而长时间不断开充电器，这样不但有损充电器，还损害蓄电池。</li>
+            <li class="f14 mb20">2、电动车就算不骑，蓄电池也会放电，很多电动车静置一周到两周内基本都会放完电了。因此，为了保护蓄电池，在不骑车的情况下，每一周或两周要充电一次，具体充电间隔时间要视电车蓄电池放电速度而定。外出一年半载,家里又没人用车，这样长时间闲置电动车的情况下，最好把蓄电池组的接线拆下来，至少也要把负极接线拆下来，这样能减缓蓄电池缓慢放电，保护蓄电池。</li>
+            <li class="f14 mb20">3、电动车充电器坏了需要更换，最好按照原配充电器的输出参数重新购置品牌原装充电器，不要听信别人的建议，购买所谓的快充充电器。标准充电虽然速度慢一点，但有利于保护蓄电池的寿命，经常快速充电会加快蓄电池报废。此外，一些高级充电器充电时间可调，也就是可以调整充电电流或是充电电压，从而实现快充、标准充和慢充，除了紧急用车，否则不建议使用快充。</li>
+          </ul>
+        </div>
+        <div class="next-step">
+            <a>下一步</a>
+        </div>
+    </div>
+    <!--弹出层-->
     <div class="footer_logo">
         <div></div>
     </div>

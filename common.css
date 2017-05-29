@@ -321,9 +321,7 @@ input[type="search"]::-webkit-search-decoration {
 .pb100 {
     padding-bottom: 100px;
 }
-.pt100 {
-    padding-top: 100px;
-}
+
 .pb20 {
     padding-bottom: 20px;
 }
@@ -539,7 +537,7 @@ a.p_active {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    background: rgba(0, 0, 0, 0.50);
+    background: rgba(34, 24, 20, 0.50);
     z-index: 10;
 }
 
@@ -608,12 +606,12 @@ a.p_active {
 /*service dialog start*/
 .dialog {
     width: 600px;
-     background: rgba(255, 255, 255);
+    background: #fff;
     position: absolute;
     top: 100px;
     left: 50%;
     margin-left: -300px;
-    z-index: 20;
+    z-index: 10;
 }
 
 .dialog .close {
@@ -630,7 +628,7 @@ a.p_active {
     font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 .dialog .content {
