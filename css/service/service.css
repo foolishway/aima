@@ -40,12 +40,13 @@
 
 .banner_bg6 {
     background: url("../../images/service/map.jpg") no-repeat center center;
-    background-size:1500px auto !important;
+    background-size: 1500px auto !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    height:1350px;
+    height: 1350px;
 }
+
 .banner_bg7 {
     background: url("../../images/service/fw-02.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -53,6 +54,7 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
 .service_tel {
     font-size: 16px;
     color: #DE9CB7;
@@ -63,15 +65,18 @@
     text-align: left;
     margin-left: -200px;
 }
-.banner_shadow_text .en{
-    font-size:40px;
+
+.banner_shadow_text .en {
+    font-size: 40px;
 }
-.banner_shadow_text .cn{
-    font-size:59px;
+
+.banner_shadow_text .cn {
+    font-size: 59px;
 }
+
 .banner_shadow_text p {
     padding: 5px;
-    font-size:16px;
+    font-size: 16px;
 }
 
 .banner_shadow_text input {
@@ -80,7 +85,7 @@
     padding: 10px;
     border: none;
     background: rgba(255, 255, 255, 0.5);
-    font-size:26px;
+    font-size: 26px;
     box-sizing: border-box;
 }
 
@@ -89,7 +94,7 @@
 }
 
 .product_q_info {
-    background: rgba(255, 255, 255,1);
+    background: rgba(255, 255, 255, 1);
     color: #fff;
     padding: 50px 20px 30px 20px;
     width: 590px;
@@ -100,7 +105,7 @@
 .product_q_info td {
     height: 100px;
     font-size: 22px;
-    vertical-align:text-top;
+    vertical-align: text-top;
 }
 
 .cn .iconfont {
@@ -110,11 +115,13 @@
 .cn.pl30, .pink.pl30 {
     padding-left: 45px;
 }
-.pink a.cns{
-    font-size:27px;
+
+.pink a.cns {
+    font-size: 27px;
 }
-.pink a.ens{
-    font-size:18px;
+
+.pink a.ens {
+    font-size: 18px;
 }
 
 .banner_text {
@@ -141,7 +148,7 @@
 
 .supplier_item .title {
     font-size: 18px;
-  
+
 }
 
 .supplier_item select {
@@ -157,18 +164,19 @@
 
 .supplier_item .select_area {
     display: inline-block;
-    width:160px;
-    height:40px;
+    width: 160px;
+    height: 40px;
     line-height: 40px;
     text-align: left;
     padding-left: 10px;
     border: 1px solid #CCCCCC;
     position: relative;
-    left:10px;
-    font-size:18px;
+    left: 10px;
+    font-size: 18px;
 
 }
-.supplier_item .select_area i{
+
+.supplier_item .select_area i {
     display: inline-block;
     position: absolute;
     right: 10px;
@@ -176,45 +184,55 @@
 
 .supplier_map {
     position: absolute;
-    right:0px;
-    top:180px;
+    right: 0px;
+    top: 180px;
     width: 600px;
-  
+
 }
 
 .supplier_map img {
     width: 100%;
 }
-.tc{
+
+.tc {
     text-align: center !important;
 }
-.after_sales_list .title{
+
+.after_sales_list .title {
     text-align: center;
-    font-size:26px;
+    font-size: 26px;
 }
-.after_salves_item{
+
+.after_salves_item {
     background: #F7F8F8;
-    margin:0 auto;
-    width:1200px;
+    margin: 0 auto;
+    width: 1200px;
     margin-top: 20px;
 }
-.after_salves_item:hover{
+
+.after_salves_item:hover {
     background: #EFEFEF;
 }
-.after_salves_item table{
-    width:100%;
+
+.after_salves_item table {
+    width: 100%;
 }
-.after_salves_item table td{
+
+.after_salves_item table td {
     text-align: left;
     height: 40px;
-    font-size:16px; padding: 20px;
+    font-size: 16px;
+    padding: 20px;
 }
-.after_salves_item table td.tc{
-    font-size:18px;
+
+.after_salves_item table td.tc {
+    font-size: 18px;
 }
-.after_salves_item table td img{
-    width:80px;
+
+.after_salves_item table td img {
+    width: 80px;
 }
+
 @media (max-width: 1080px) {
     .banner_shadow_text {
         text-align: center;
@@ -248,13 +266,64 @@
     .supplier_map img {
         width: 100%;
     }
-    .after_salves_item{
-        width:90%;
+
+    .after_salves_item {
+        width: 90%;
     }
 }
-.f35{font-size: 35px !important;}.f40{font-size: 40px !important;}.f50{font-size: 50px !important;}.f26{ font-size: 26px !important;}.f18{ font-size: 18px !important;} .lh40{ line-height: 40px;} .tl{ text-align: center;}
-.mtd40{ margin: 40px 0px;}.mt30{ margin-top: 30px;}.f24{ font-size: 24px !important;}.f14{ font-size: 14px !important;}.f20{ font-size: 20px !important;}
-.pd20{padding-bottom: 20px;}
+
+.f35 {
+    font-size: 35px !important;
+}
+
+.f40 {
+    font-size: 40px !important;
+}
+
+.f50 {
+    font-size: 50px !important;
+}
+
+.f26 {
+    font-size: 26px !important;
+}
+
+.f18 {
+    font-size: 18px !important;
+}
+
+.lh40 {
+    line-height: 40px;
+}
+
+.tl {
+    text-align: center;
+}
+
+.mtd40 {
+    margin: 40px 0px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.f24 {
+    font-size: 24px !important;
+}
+
+.f14 {
+    font-size: 14px !important;
+}
+
+.f20 {
+    font-size: 20px !important;
+}
+
+.pd20 {
+    padding-bottom: 20px;
+}
+
 .banner_shadow2 {
     position: absolute;
     top: 0px;
@@ -265,8 +334,43 @@
     z-index: 10;
     height: 900px;
 }
-.china_map{ width: 689px; position: absolute;bottom: 0px;right: 0px;}
-.banner_shadow_text { top: 60% !important;}
 
-.dialog p{font-size: 24px; padding-bottom: 20px;}
-.yans{ color: #F09EC1;}
+.china_map {
+    width: 689px;
+    position: absolute;
+    bottom: 15%;
+    right: 13%;
+    z-index: 11;
+}
+
+.banner_shadow_text {
+    top: 60% !important;
+}
+
+.dialog p {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.yans {
+    color: #F09EC1;
+}
+
+.tsjt {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    margin-top: -100px;
+    background: url("../../images/common/arrow-l-h.png") no-repeat center;
+    background-size: cover;
+    color:#fff;
+}
+.tsjt div{
+    position: absolute;
+    left: -60px;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+}
