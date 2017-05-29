@@ -15,7 +15,7 @@
     margin-top: 50px;
     font-size: 16px;
     line-height: 37px;
-    margin: 0 75px;
+   
 
 }
 
@@ -46,6 +46,7 @@
     position: relative;
     left:10px;
     font-size:18px;
+    box-sizing: border-box;
 
 }
 .zhaopin_item .select_area i{

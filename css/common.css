@@ -288,7 +288,16 @@ input[type="search"]::-webkit-search-decoration {
 .mb20 {
     margin-bottom: 20px !important;
 }
+.mb40{
+    margin-bottom:40px;
+}
+.mb50{
+    margin-bottom:50px;
+}
 
+.mb35{
+    margin-bottom:35px;
+}
 .mt20 {
     margin-top: 20px;
 }
