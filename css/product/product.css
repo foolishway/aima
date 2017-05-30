@@ -86,6 +86,14 @@
     background-size: cover;
 }
 
+.banner_bg10 {
+    background: url("../../images/product/cp-10-a.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .product_list {
     width: 1200px;
     margin: 0 auto;
@@ -289,7 +297,7 @@
 .product_params {
     border: 0px;
     margin: 0 auto;
-    width: 80%;
+    width: 1200px;
     border-spacing: 0;
 }
 
