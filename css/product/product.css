@@ -46,6 +46,30 @@
     background-size: cover;
 }
 
+.banner_bg15 {
+    background: url("../../images/product/cp-15.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner_bg16 {
+    background: url("../../images/product/cp-16.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.banner_bg17 {
+    background: url("../../images/product/cp-17.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .banner_bg18 {
     background: url("../../images/product/cp-18.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -344,32 +368,70 @@
 }
 
 .jiasu {
-    width: 400px;
-    font-size: 120px;
+    font-size: 240px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -200px;
-    margin-top: -200px;
+    margin-left: -360px;
+    margin-top: -360px;
 }
 
 .jsxn {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 50px;
+    right: -50px;
     font-size: 24px;
     color: #fff;
+    text-align: left;
 }
 
 .bx {
-    width: 800px;
-    height: 360px;
-    font-size: 120px;
+    /* width: 800px; */
+    /* height: 360px; */
+    /* font-size: 120px; */
     position: absolute;
     top: 50%;
     left: 50%;
     margin-left: -400px;
-    margin-top: -180px;
+    margin-top: -330px;
+    font-size: 240px;
+}
+
+.bx .jsxn {
+    position: absolute;
+    bottom: 50px;
+    right: -450px;
+    font-size: 24px;
+    color: #fff;
+    text-align: left;
+}
+
+.a-cooling {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 120px;
+    width: 520px;
+    margin-left: -250px;
+    margin-top: -300px;
+}
+
+.a-cooling .jsxn {
+    bottom: -150px;
+    right: -200px;
+}
+
+.a-cooling .jsxn .title {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.a-cooling .jsxn .desc {
+    font-size: 18px;
+}
+.dg{
+    left: 50px;
+    top: 200px;
 }
 
 @media (max-width: 1080px) {
@@ -426,6 +488,7 @@
 
     .text_left, .text_right, .text_left_bottom, .text_right_bottom, text_center {
         /*left: 50%;*/
+        left: auto;
         top: 50%;
         /*margin-left: -150px;*/
         margin-top: -150px;
@@ -456,7 +519,7 @@
         left: auto;
     }
 
-    .jiasu {
+    .jiasu, .bx {
         width: 100%;
         font-size: 60px;
         text-align: center;
@@ -464,7 +527,8 @@
         margin-left: 0;
     }
 
-    .jsxn {
+    .bx .jsxn, .jsxn {
+        position: static;
         width: 100%;
         font-size: 16px;
         right: auto;
@@ -485,6 +549,16 @@
 
     .product_division ul, .product_ps_list {
         width: 100%;
+    }
+
+    .a-cooling {
+        width: 100%;
+        margin: 0;
+        font-size: 60px;
+        margin-top: -150px;
+        bottom: auto;
+        left: 0px;
+        text-align: center;
     }
 }
 
