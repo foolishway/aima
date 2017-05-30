@@ -488,7 +488,7 @@
 
     .text_left, .text_right, .text_left_bottom, .text_right_bottom, text_center {
         /*left: 50%;*/
-        left: auto;
+        /*left: auto;*/
         top: 50%;
         /*margin-left: -150px;*/
         margin-top: -150px;
