@@ -396,8 +396,18 @@
     margin-top: -330px;
     font-size: 240px;
 }
-
-.bx .jsxn {
+.mx {
+    /* width: 800px; */
+    /* height: 360px; */
+    /* font-size: 120px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -560px;
+    margin-top: -350px;
+    font-size: 240px;
+}
+.mx .jsxn,.bx .jsxn {
     position: absolute;
     bottom: 50px;
     right: -450px;
@@ -519,7 +529,7 @@
         left: auto;
     }
 
-    .jiasu, .bx {
+    .jiasu, .bx,.mx {
         width: 100%;
         font-size: 60px;
         text-align: center;
@@ -527,7 +537,7 @@
         margin-left: 0;
     }
 
-    .bx .jsxn, .jsxn {
+    .bx .jsxn, .jsxn,.mx .jsxn {
         position: static;
         width: 100%;
         font-size: 16px;
