@@ -614,6 +614,8 @@ a.p_active {
     left: 50%;
     margin-left: -300px;
     z-index: 20;
+    /*height: 800px;*/
+    /*overflow: scroll;*/
 }
 
 .dialog .close {
