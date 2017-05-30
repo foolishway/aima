@@ -77,6 +77,7 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
 .banner_bg19 {
     background: url("../../images/product/cp-19.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -84,6 +85,7 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
 .product_list {
     width: 1200px;
     margin: 0 auto;
@@ -162,12 +164,20 @@
 
 .product_division {
     background: #B5B5B5;
-    
+
     padding-left: 100px;
     color: #919191;
     margin-top: 100px;
 }
-.product_division ul{ width: 1200px; margin: 0 auto; height: 100px;line-height: 100px;font-size: 36px;}
+
+.product_division ul {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px;
+    font-size: 36px;
+}
+
 .product_ps_list {
     width: 1200px;
     margin: 0 auto;
@@ -188,9 +198,11 @@
     padding-bottom: 20px;
     box-sizing: border-box;
 }
+
 .product_ps_item:hover {
     background: #C9C9CA;
 }
+
 .product_ps_item.ps:hover {
     background: #C9C9CA;
 }
@@ -215,7 +227,7 @@
 
 .banner_carousel {
     position: relative;
-    height: 650px;
+    height: 900px;
     overflow: hidden;
     background: url(../../images/index/loading.gif) 50% no-repeat;
     top: 70px;
@@ -315,7 +327,8 @@
 }
 
 .ps {
-    width: 600px; height: 600px;
+    width: 600px;
+    height: 600px;
 }
 
 .mai_detail {
@@ -449,15 +462,32 @@
         right: auto;
         text-align: center;
     }
-    .product_xl{
-        font-size:16px;
-        height:70px;
+
+    .product_xl {
+        font-size: 16px;
+        height: 70px;
         line-height: 70px;
     }
-    .bx{
-        width:100%;
+
+    .bx {
+        width: 100%;
         left: 0px;
-        margin-left:0px;
+        margin-left: 0px;
+    }
+
+    .product_division ul, .product_ps_list {
+        width: 100%;
     }
 }
-.f50{ font-size: 50px !important;}.f34{ font-size: 34px !important;}.f18{ font-size: 18px !important;}
+
+.f50 {
+    font-size: 50px !important;
+}
+
+.f34 {
+    font-size: 34px !important;
+}
+
+.f18 {
+    font-size: 18px !important;
+}
