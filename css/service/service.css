@@ -366,6 +366,7 @@
     background: url("../../images/common/arrow-l-h.png") no-repeat center;
     background-size: cover;
     color:#fff;
+    cursor: pointer;
 }
 .tsjt div{
     position: absolute;
@@ -373,4 +374,5 @@
     width: 60px;
     height: 30px;
     line-height: 30px;
+    cursor: pointer;
 }
