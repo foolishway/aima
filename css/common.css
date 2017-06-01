@@ -387,9 +387,9 @@ input[type="search"]::-webkit-search-decoration {
 .header .header_log {
     background: url(../images/common/logo1.png) no-repeat;
     background-size: 50px 50px;
-    background-position: 0px 3px;
+    background-position: 0px 0px;
     width: 200px;
-    height: 61px;
+    height: 60px;
 }
 
 .header .header_menu {
@@ -451,6 +451,8 @@ a.p_active {
     background: #fff;
     width: 100%;
     height: 300px;
+    padding-top:20px;
+    box-sizing: border-box;
 }
 
 .header_sub_menu_list .jh {
@@ -531,7 +533,7 @@ a.p_active {
 
 /*banner shadow start*/
 .banner {
-    height: 900px;
+    height: 1059px;
     width: 100%;
     position: relative;
     top: 94px;
@@ -872,7 +874,7 @@ ul.app_c_menu_list {
 
 .banner_carousel {
     position: relative;
-    height: 900px;
+    height: 1059px;
     overflow: hidden;
     background: url(../images/index/loading.gif) 50% no-repeat;
     top: 94px;
@@ -885,7 +887,7 @@ ul.app_c_menu_list {
 }
 
 .slides li {
-    height: 900px;
+    height: 1059px;
     position: relative
 }
 
