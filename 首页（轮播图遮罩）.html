@@ -14,6 +14,12 @@
     <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <style>
+        .banner {
+            z-index: 10;
+            top:0;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,7 +31,7 @@
                 <li class="header_log">
                 </li>
                 <li>
-                    <a class="p_active">爱玛哲学</a>
+                    <a>爱玛哲学</a>
                 </li>
                 <li>
                     <a>骑行产品</a>
@@ -104,7 +110,7 @@
                             <a>爱.艺术.时尚.骑行</a>
                         </li>
                     </ul>
-                    <ul class="zg">
+                    <ul>
                         <li>
                             <a>京东商城</a>
                         </li>
@@ -122,7 +128,6 @@
         <!--移动端导航开始-->
         <nav class="app_menu hide">
             <ul class="app_p_menu_list">
-                <li><a>国家发展计划</a></li>
                 <li data-flag="parent">
                     <a>爱玛哲学</a>
                     <ul class="app_c_menu_list hide">
@@ -213,15 +218,49 @@
         <!--移动端导航结束-->
     </div>
     <!--banner开始-->
-    <div class="banner banner_bg">
-        <div class="banner_shadow">
-            <div class="banner_shadow_text">
-                <p class="en">Love can save the world!</p>
-                <p class="cn">爱·可以拯救世界！</p>
+    <div class="banner_carousel">
+        <div class="banner banner_bg">
+            <div class="banner_shadow">
+                <div class="banner_shadow_text">
+                    <p class="en">Love can save the world!</p>
+                    <p class="cn">爱·可以拯救世界！</p>
+                </div>
             </div>
         </div>
+        <ul class="slides">
+            <li style="color:red" class="banner_bg1">
+                <div class="banner_footer">
+                    爱玛全球销量率先突破2400万辆
+                </div>
+            </li>
+            <li class="banner_bg2">
+            </li>
+            <li class="banner_bg3">
+                <div class="banner_footer">
+                    爱玛全球销量率先突破2400万辆
+                </div>
+            </li>
+            <li class="banner_bg4">
+                <div class="banner_footer">
+                    爱玛全球销量率先突破2400万辆
+                </div>
+            </li>
+            <li class="banner_bg5">
+                <div class="banner_footer">
+                    爱玛全球销量率先突破2400万辆
+                </div>
+            </li>
+        </ul>
     </div>
     <!--banner结束-->
+    <div class="banner_icon">
+        <ul>
+            <li>品质</li>
+            <li>价值</li>
+            <li>创新</li>
+            <li class="active">销量</li>
+        </ul>
+    </div>
     <div class="footer_logo">
         <div></div>
     </div>
