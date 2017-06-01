@@ -513,6 +513,11 @@ a.p_active {
 /*.header_p_menu_list li:last-child a {*/
 /*text-align: right;*/
 /*}*/
+.gwc{
+    width:20px;
+    height:16px;
+    margin-right:5px;
+}
 
 .zg li a {
     text-align: right;
@@ -557,10 +562,13 @@ a.p_active {
 
 .banner_shadow_text .en {
     font-size: 59px;
+    line-height: 1.4em;
+    letter-spacing: 1px;
 }
 
 .banner_shadow_text .cn {
     font-size: 40px;
+    line-height: 40px;
 }
 
 .pink {
@@ -785,7 +793,7 @@ ul.app_c_menu_list {
 }
 
 .footer_body ul li:not(:first-child) a {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .footer_body ul li a:before {
@@ -847,14 +855,14 @@ ul.app_c_menu_list {
     width: 120px;
     height: 20px;
     position: absolute;
-    left: 108px;
+    left: 85px;
     padding-left: 10px;
     font-size: 12px;
 }
 
 .footer_li_input .iconfont {
     position: absolute;
-    left: 220px;
+    left: 198px;
     top: -1px;
 }
 
