@@ -210,9 +210,9 @@
     margin-top: 20px;
 }
 
-.after_salves_item:hover {
-    background: #EFEFEF;
-}
+/*.after_salves_item:hover {*/
+    /*background: #EFEFEF;*/
+/*}*/
 
 .after_salves_item table {
     width: 100%;

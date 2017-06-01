@@ -302,8 +302,8 @@ input[type="search"]::-webkit-search-decoration {
     margin-top: 20px;
 }
 
-.mt180 {
-    margin-top: 180px !important;
+.mt274 {
+    margin-top: 274px !important;
 }
 
 .pr20 {
@@ -959,7 +959,7 @@ ul.app_c_menu_list {
 
 .card_item {
     width: 1200px;
-    margin: 0 auto 80px;
+    margin: 0 auto 120px;
     overflow: hidden;
     position: relative;
 }
@@ -984,9 +984,10 @@ ul.app_c_menu_list {
 }
 
 .card_content .title {
+    line-height: 40px;
     font-size: 18px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .card_content .desc {
