@@ -229,10 +229,23 @@
     padding-top: 80px;
     padding-bottom: 20px;
     box-sizing: border-box;
+    position: relative;
 }
 
-.product_ps_item:hover {
-    background: #C9C9CA;
+.product_ps_item .shadow {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 15;
+}
+
+.product_ps_item:hover .shadow {
+    display: block;
+    /*background: #C9C9CA;*/
 }
 
 .product_ps_item.ps:hover {
@@ -329,7 +342,7 @@
     height: 30px;
     text-align: center;
     font-size: 16px;
-    padding:20px;
+    padding: 20px;
 }
 
 .product_params tr:nth-child(even), .product_params thead tr {
@@ -397,6 +410,7 @@
     margin-top: -330px;
     font-size: 240px;
 }
+
 .mx {
     /* width: 800px; */
     /* height: 360px; */
@@ -408,7 +422,8 @@
     margin-top: -350px;
     font-size: 240px;
 }
-.mx .jsxn,.bx .jsxn {
+
+.mx .jsxn, .bx .jsxn {
     position: absolute;
     bottom: 50px;
     right: -450px;
@@ -440,7 +455,8 @@
 .a-cooling .jsxn .desc {
     font-size: 18px;
 }
-.dg{
+
+.dg {
     left: 50px;
     top: 200px;
 }
@@ -530,7 +546,7 @@
         left: auto;
     }
 
-    .jiasu, .bx,.mx {
+    .jiasu, .bx, .mx {
         width: 100%;
         font-size: 60px;
         text-align: center;
@@ -538,7 +554,7 @@
         margin-left: 0;
     }
 
-    .bx .jsxn, .jsxn,.mx .jsxn {
+    .bx .jsxn, .jsxn, .mx .jsxn {
         position: static;
         width: 100%;
         font-size: 16px;
