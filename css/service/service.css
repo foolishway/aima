@@ -86,7 +86,7 @@
     border: none;
     background: rgba(255, 255, 255, 0.5);
     font-size: 26px;
-    box-sizing: border-box;
+    box-sizing: border-box; color: #fff;
 }
 
 ::-webkit-input-placeholder {
@@ -165,14 +165,14 @@
 .supplier_item .select_area {
     display: inline-block;
     width: 160px;
-    height: 40px;
-    line-height: 40px;
+    height: 44px;
+    line-height: 44px;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 30px;
     border: 1px solid #CCCCCC;
     position: relative;
     left: 10px;
-    font-size: 18px;
+    font-size: 18px; box-sizing: border-box;
 
 }
 
@@ -392,3 +392,15 @@
     background-size: cover;
     cursor: pointer;
 }
+::-webkit-input-placeholder { /* WebKit browsers */
+color: #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color: #fff;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+color: #fff;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+color: #fff;
+} 

@@ -570,7 +570,7 @@ a.p_active {
 
 .banner_shadow_text .cn {
     font-size: 40px;
-    line-height: 40px;
+    /*line-height: 40px;*/
 }
 
 .pink {
@@ -623,7 +623,7 @@ a.p_active {
     top: 100px;
     left: 50%;
     margin-left: -300px;
-    z-index: 20;
+    z-index: 20;margin-top: 10px;
     /*height: 800px;*/
     /*overflow: scroll;*/
 }
@@ -660,9 +660,9 @@ a.p_active {
 
 .dialog .next-step a {
     display: block;
-    width: 120px;
-    height: 44px;
-    line-height: 44px;
+    width: 164px;
+    height: 42px;
+    line-height: 42px;
     color: #fff;
     background: #F19EC2;
     margin: 0 auto;
