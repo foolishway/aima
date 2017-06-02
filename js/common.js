@@ -9,9 +9,13 @@ $.fn.extend({
     pcMenuInit: function () {
         var $this = $(this);
         $this.hover(function () {
-            $("div.header_sub_menu_list").stop(true, true).slideDown(50);
+            $("div.header_sub_menu_list").stop(true, true).slideDown(100, function () {
+                if ($(this).height() < 300) {
+                    $(this).height(300)
+                }
+            });
         }, function () {
-            $("div.header_sub_menu_list").stop().slideUp(50);
+            $("div.header_sub_menu_list").stop().slideUp(100);
         });
 
         // var $this = $(this),
