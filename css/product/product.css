@@ -248,9 +248,9 @@
     /*background: #C9C9CA;*/
 }
 
-.product_ps_item.ps:hover {
-    background: #C9C9CA;
-}
+/*.product_ps_item.ps:hover {*/
+    /*background: #C9C9CA;*/
+/*}*/
 
 .product_ps_item img {
     width: 400px;
