@@ -9,6 +9,7 @@
 .vedio {
     background: #000000;
     position: relative;
+    min-width: 1200px;
 }
 
 .vedio_bg {
@@ -38,6 +39,7 @@
     text-align: center;
     color: #fff;
     font-size: 40px;
+    min-width:1200px;
 }
 
 .hy_list {
@@ -195,5 +197,11 @@
     .img_view {
         left: 0;
         margin-left: 0;
+    }
+    .hy_line{
+        min-width: inherit;
+    }
+    .vedio{
+        min-width: inherit;
     }
 }

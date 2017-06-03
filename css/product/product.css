@@ -196,10 +196,9 @@
 
 .product_division {
     background: #B5B5B5;
-
-    padding-left: 100px;
     color: #919191;
     margin-top: 100px;
+    min-width: 1200px;
 }
 
 .product_division ul {
@@ -268,16 +267,17 @@
     font-size: 34px;
     text-align: center;
     color: #fff;
+    min-width: 1200px;
 }
 
-.banner_carousel {
-    position: relative;
-    height: 1059px;
-    overflow: hidden;
-    background: url(../../images/index/loading.gif) 50% no-repeat;
-    top: 70px;
-    margin-bottom: 70px;
-}
+/*.banner_carousel {*/
+    /*position: relative;*/
+    /*height: 1059px;*/
+    /*overflow: hidden;*/
+    /*background: url(../../images/index/loading.gif) 50% no-repeat;*/
+    /*top: 70px;*/
+    /*margin-bottom: 70px;*/
+/*}*/
 
 .tc {
     text-align: center;
@@ -505,6 +505,7 @@
         padding: 0px;
         text-align: center;
         font-size: 16px;
+        min-width: inherit;
     }
 
     .product_banner {
@@ -566,6 +567,7 @@
         font-size: 16px;
         height: 70px;
         line-height: 70px;
+        min-width: inherit;
     }
 
     .bx {

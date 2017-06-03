@@ -535,6 +535,7 @@ a.p_active {
 .banner {
     height: 1059px;
     width: 100%;
+    min-width: 1200px;
     position: relative;
     top: 94px;
     margin-bottom: 94px;
@@ -597,6 +598,7 @@ a.p_active {
     color: #898989;
     height: 88px;
     line-height: 88px;
+    min-width: 1200px;
 }
 
 .banner_icon ul {
@@ -740,6 +742,7 @@ ul.app_c_menu_list {
 
 .footer {
     width: 100%;
+    min-width: 1200px;
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     position: relative;
@@ -875,6 +878,7 @@ ul.app_c_menu_list {
 .banner_carousel {
     position: relative;
     height: 1059px;
+    min-width: 1200px;
     overflow: hidden;
     background: url(../images/index/loading.gif) 50% no-repeat;
     top: 94px;
@@ -1022,6 +1026,7 @@ ul.app_c_menu_list {
     .banner {
         top: 50px;
         margin-bottom: 50px;
+        min-width:inherit;
     }
 
     .app_menu_btn {
@@ -1041,8 +1046,11 @@ ul.app_c_menu_list {
     .banner_carousel {
         top: 50px !important;
         margin-bottom: 50px !important;
+        min-width: inherit;
     }
-
+    .banner_icon{
+        min-width: inherit;
+    }
     .banner_icon ul {
         width: 100%;
     }
@@ -1058,6 +1066,7 @@ ul.app_c_menu_list {
     /*footer start*/
     .footer {
         height: auto;
+        min-width: inherit;
     }
 
     .footer_body {
