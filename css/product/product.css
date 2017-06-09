@@ -53,7 +53,26 @@
     -o-background-size: cover;
     background-size: cover;
 }
-
+.dial{
+    width: 460px;
+    height: 460px;
+    background: url("../../images/product/ybb_bg.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left:-230px;
+    margin-top:-230px;
+}
+.dial .dialText{
+    font-size:150px;
+    color: #F19EC2;
+    text-align: center;
+    line-height: 460px;
+}
 .banner_bg16 {
     background: url("../../images/product/cp-16.jpg") no-repeat center center;
     -webkit-background-size: cover;
