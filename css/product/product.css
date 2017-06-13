@@ -169,10 +169,89 @@
     position: relative;
 }
 
+.product_item .peijian {
+    background: #575757;
+    width: 1200px;
+    height:750px;
+}
+
+.product_item .pj_img .pj_img_left {
+    float: left;
+
+}
+img_left_top{
+    overflow: hidden;
+}
+.product_item .pj_img .img_left .img_left_top {
+    overflow: hidden;
+}
+
+.product_item  .img_left_top_l {
+    float: left;
+}
+
+.product_item .img_left_top_r {
+    float: left;
+}
+.img_left_bottom{
+    width:945px;
+    height:322px;
+}
+.img_left_bottom img {
+    /*width: 945px;*/
+}
+
+.img_left_top_l img,
+.img_left_top_r img {
+    width: 427px !important;
+}
+.pj_foot li{
+    width:33.33%;
+    height: 100px;
+    float:left;
+    text-align: center;
+}
+.pj_foot li a{
+    color:#fff;
+    font-size:24px;
+}
+.pj_foot li a:hover{
+    color: #F19EC2;
+    font-size:24px;
+}
+.product_item .pj_img{
+    height:650px;
+}
+.product_item .pj_img .img_right {
+    float: right;
+    width: auto !important;
+}
+.product_item .pj_img .img_right img{
+    width:361px !important;
+}
+.img_left_bottom img{
+    width:854px !important;
+}
+.img_left_top_l,.img_left_top_r,.img_left_bottom{
+    position: relative;
+    cursor: pointer;
+}
+.img_left_bottom:hover .shadow{
+    display: block;
+}
+.img_left_top_l .shadow,.img_left_top_r .shadow,.img_left_bottom .shadow{
+    display: none;
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    background: rgba(0,0,0,0.5);
+}
 .product_small ul {
     height: 200px;
-    padding-top:20px;
-    padding-bottom:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .product_small ul li {
@@ -181,9 +260,11 @@
     width: 200px;
     position: relative;
 }
-.product_small ul li:not(:first-child){
-    margin-left:50px;
+
+.product_small ul li:not(:first-child) {
+    margin-left: 50px;
 }
+
 .wrap, .circle, .percent {
     position: absolute;
     width: 200px;
@@ -258,13 +339,15 @@
     background-color: #fff;
     z-index: 1;
 }
-.wrap .text span{
+
+.wrap .text span {
     position: absolute;
-    top:40px;
-    left:45px;
+    top: 40px;
+    left: 45px;
     display: inline-block;
-    width:70px;
+    width: 70px;
 }
+
 .lamplight {
     width: 907px !important;
     position: absolute;
@@ -730,7 +813,8 @@
         left: 0px;
         text-align: center;
     }
-    .product_small ul li{
+
+    .product_small ul li {
         margin-left: 50px;
         margin-bottom: 20px;
     }
