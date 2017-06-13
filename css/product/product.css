@@ -168,6 +168,18 @@
     background: url("../../images/product/cp-07-b.jpg");
     position: relative;
 }
+.product_list .product_item.lamplight360 {
+    width: 1200px;
+    height: 650px;
+    position: relative;
+}
+.lamplight360 {
+    width: 1200px !important;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+}
 
 .product_item .peijian {
     background: #575757;
